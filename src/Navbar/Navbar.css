@@ -1,0 +1,57 @@
+
+.bar
+{
+    background: linear-gradient(-90deg, #000000 -45.54%, #49247A 102.32%);
+    margin: 0   ;
+height: 3.75rem;
+
+
+
+
+}
+p{
+    margin: 0;
+}
+
+.pone
+{
+   
+
+margin: 0;
+font-family:'kanit';
+/* font-size: clamp(0.75rem, 0.675rem + 0.375vw, 1.125rem); */
+font-weight: 600;
+/* font-size: clamp(0.875rem, 0.825rem + 0.25vw, 1.125rem); */
+/* font-size: clamp(0.375rem, 0.275rem + 0.5vw, 0.875rem); */
+font-size: .1.125rem;
+line-height: 26px;
+
+}
+.ptwo
+{
+    /* width: 114px; */
+margin-left:.5rem ;
+
+
+font-family: 'Kanit';
+
+/* font-size:clamp(0.375rem, 0.3rem + 0.375vw, 0.75rem); */
+font-size: 0.9rem;
+
+font-weight: 400;
+/* line-height: 21px; */
+
+
+}
+.pthree
+{
+    width: 20px;
+margin-left: 1rem;
+
+}
+/* .bord{
+    border-right: 1px solid white;
+
+
+   
+} */

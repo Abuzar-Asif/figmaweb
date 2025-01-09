@@ -1,0 +1,15 @@
+.backgroundimg{
+    background-image: url('../../public/background.svg');
+    background-position:top;
+    background-size: contain;
+    background-repeat: no-repeat;    
+height:44.375rem;
+/* height: 870px; */
+width: 100%;
+
+padding: 0;
+
+
+   
+
+}
