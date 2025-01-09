@@ -9,6 +9,10 @@ const App = () => {
       <Navhead/>
       <Backgroundimage/>
       <Partners/>
+
+      <h1>
+        hellow
+      </h1>
     </>
   )
 }
