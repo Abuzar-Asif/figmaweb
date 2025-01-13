@@ -4,7 +4,7 @@ const Navhead = () => {
   return (
     <>
      <div  className='container-fluid bar text-white '>
-      <div className='d-flex justify-content-end align-items-center h-100 '>
+      <div className='d-flex justify-content-end flex-wrap align-items-center h-100 '>
               <div className='d-flex align-items-center p-2 '>
               <p className='pone' >USA:</p>
               <p className='ptwo'>+1 (972) 464-2823</p>

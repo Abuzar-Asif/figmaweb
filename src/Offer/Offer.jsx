@@ -3,7 +3,7 @@ import '../Offer/Offer.css'
 const Offer = () => {
   return (
     <>
-    <div className="container-fluid mt-5">
+    <div className="container-fluid pt-5">
     <div className="container m-auto">
             <div className='line'>
                 
@@ -16,7 +16,7 @@ const Offer = () => {
                 </p>
             </div>
             <div className="butto  text-white">
-                <button className='btn'>
+                <button className='btn '>
                 Contact us  <span><img src="arrow.png" alt="" /></span>
                 </button> 
             </div>

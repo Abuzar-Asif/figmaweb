@@ -6,6 +6,8 @@ import Partners from './Partners/Partners'
 import Technology from './Technology/Technology'
 import Offer from './Offer/Offer'
 import Step from './Step/Step'
+import Brand from './Brands/Brand'
+import Client from './Client/Client'
 const App = () => {
   return (
     <>
@@ -15,7 +17,8 @@ const App = () => {
       <Offer/>
       <Technology/>    
       <Step/>
-      
+      {/* <Brand/> */}
+      <Client/>
     </>
   )
 }

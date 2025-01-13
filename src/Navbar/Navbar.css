@@ -55,3 +55,37 @@ margin-left: 1rem;
 
    
 } */
+
+@media only screen and (max-width: 768px) {
+    .pone{
+        font-size: 0.9rem;
+        
+    }
+    .ptwo{
+        font-size: .5rem;
+    }
+  
+    .pthree
+    {
+        margin: 0;
+        padding: 0;
+        display: none;
+    }
+}
+@media only screen and (max-width: 360px) 
+{
+    .pone{
+        font-size: 0.6rem;
+        
+    }
+    .ptwo{
+        font-size: .4rem;
+    }
+  
+    .pthree
+    {
+        margin: 0;
+        padding: 0;
+        display: none;
+    }
+}

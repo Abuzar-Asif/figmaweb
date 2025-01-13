@@ -1,0 +1,27 @@
+.brandpara{
+    
+font-family: 'Kanit';
+font-size: 1.125rem;
+font-weight: 300;
+line-height: 19px;
+
+}
+.brandheading{
+
+font-family: 'Kanit';
+font-size: 64px;
+font-weight: 500;
+line-height: 59px;
+
+}
+.brandwith{
+    width: 14.28%;
+    height: 12rem;
+
+    /* border: 1px solid #999999; */
+    border: 1px solid #807F7F;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
