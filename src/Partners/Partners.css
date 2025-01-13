@@ -15,3 +15,14 @@ line-height: 43px;
 background-color: #121212;
 
 }
+.widthclass{
+    width: 20%;
+    height: 8rem;
+    /* border: 1px solid #999999; */
+    border: 1px solid #807F7F;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

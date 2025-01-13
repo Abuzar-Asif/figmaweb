@@ -1,0 +1,48 @@
+.container-fluid{
+    background-color: #121212;
+    font-family: 'Kanit';
+font-size: 26px;
+font-weight: 400;
+line-height: 16px;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+.technology
+{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.one{
+    width: 20%;
+   height: 4.313rem;
+    border: 1px solid #807F7F;
+    padding-left: 1.5rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+.two
+{
+   padding-left: 1.5rem;
+    height: 4.313rem;
+    border: 1px solid #807F7F;
+    display: flex;
+justify-content: start;
+align-items: center;
+
+
+}
+.divwidth1{
+    width: 18%;}
+
+    .divwidth2{
+        width: 20%;}
+        .divwidth3{
+            width: 20%;}
+            .divwidth4{
+                width: 20%;}
+                .divwidth5{
+                    width: 22%;}
