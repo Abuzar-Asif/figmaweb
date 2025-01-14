@@ -13,3 +13,12 @@ padding: 0;
    
 
 }
+.backgroundul{
+    list-style: none;
+  font-size: 14px;
+  margin-left: 8rem;
+}
+.backroundli{
+    /* padding-right: 1rem;
+    padding-left: 1rem; */
+}

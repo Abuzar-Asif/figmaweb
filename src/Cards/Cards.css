@@ -1,0 +1,38 @@
+.cardsheading{
+    text-align: center;
+
+font-family: 'Kanit';
+font-size: 64px;
+font-weight: 500;
+line-height: 59px;
+
+}
+.cardspara{
+  
+font-family: 'Kanit';
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+
+
+}
+.cardbodypara{
+  
+font-family: 'Kanit';
+font-size: 10px;
+font-weight: 400;
+line-height: 21px;
+
+}
+.cardbodyheading{
+
+font-family: 'Kanit';
+font-size: 20px;
+font-weight: 500;
+line-height: 43px;
+border-bottom: 1px solid #807F7F;
+
+}
+.card-body{
+    padding: 0;
+}

@@ -15,8 +15,8 @@ line-height: 59px;
 
 }
 .brandwith{
-    width: 14.28%;
-    height: 12rem;
+    /* width: 14.28%; */
+    /* height: 12rem; */
 
     /* border: 1px solid #999999; */
     border: 1px solid #807F7F;
@@ -24,4 +24,13 @@ line-height: 59px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.brandimage{
+    width: 14.28%;
+    height: 12rem;
+    border: 1px solid #807F7F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }

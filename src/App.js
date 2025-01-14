@@ -8,6 +8,14 @@ import Offer from './Offer/Offer'
 import Step from './Step/Step'
 import Brand from './Brands/Brand'
 import Client from './Client/Client'
+import ChooseUs from './ChooseUs/ChooseUs'
+import Hearmore from './Hearmore/Hearmore'
+import GetaQuote from './GetaQuote/GetaQuote'
+import Gallery from './Gallery/Gallery'
+import Footer from './Footer/Footer'
+import Cards from './Cards/Cards'
+import Service from './Service/Service'
+import Contactfooter from './Contactfooter/Contactfooter'
 const App = () => {
   return (
     <>
@@ -15,10 +23,19 @@ const App = () => {
       <Backgroundimage/>
       <Partners/>
       <Offer/>
-      <Technology/>    
+      <Technology/>   
+      <Service/> 
       <Step/>
-      {/* <Brand/> */}
+      <Brand/>
       <Client/>
+      <ChooseUs/>
+      <Hearmore/>
+      <GetaQuote/>
+      <Gallery/>
+      <Cards/>
+      <Footer/>
+      <Contactfooter/>
+
     </>
   )
 }

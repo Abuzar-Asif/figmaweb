@@ -1,0 +1,14 @@
+.quoteheading{
+
+font-family: 'Kanit';
+font-size: 6rem;
+font-weight: 500;
+line-height: 144px;
+
+
+}
+.quoteborder
+{
+    border-top: 1px solid #807F7F;
+    border-bottom: 1px solid #807F7F;
+}

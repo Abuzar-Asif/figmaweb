@@ -1,0 +1,33 @@
+.footerpara{
+    font-family: 'Akkurat';
+font-size: 16px;
+font-weight: 500;
+line-height: 30px;
+color: #ADADAD;
+
+
+}
+.footerheading{
+    font-family: 'Akkurat';
+font-size: 18px;
+font-weight: 500;
+line-height: 24px;
+
+
+}
+.footermainheading{
+    font-family: 'Akkurat';
+font-size: 22px;
+font-weight: 500;
+line-height: 24px;
+
+
+}
+.containerdiv{
+    border-bottom: 1px solid #807F7F;
+}
+.footerborder
+{
+    border-bottom: 1px solid #807F7F;
+
+}

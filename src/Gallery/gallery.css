@@ -1,0 +1,51 @@
+.Galleryimage1{
+  background-image: url('../../public/World Economic Forum.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 50rem;
+/* width: 100%; */
+
+
+
+}
+.Galleryimage2{
+  background-image: url('../../public/Hyprov (1).png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 50rem;
+
+}
+.Galleryimage3{
+  background-image: url('../../public/Margot Community 1.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 50rem;
+
+}
+.Galleryimage4{
+  background-image: url('../../public/Pixie Cup.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 50rem;
+
+}
+.Galleryimage5{
+  background-image: url('../../public/Legends of the Galaxy.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 50rem;
+
+}
+.Galleryimage6{
+  background-image: url('../../public/Legends of the Galaxy (1).png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 50rem;
+
+}

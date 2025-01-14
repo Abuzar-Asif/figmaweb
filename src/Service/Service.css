@@ -1,0 +1,35 @@
+.servicepara{
+  
+font-family: 'Kanit';
+font-size: 18px;
+font-weight: 300;
+line-height: 19px;
+
+
+}
+.serviceheading{
+  
+font-family:' Kanit';
+font-size: 64px;
+font-weight: 500;
+line-height: 59px;
+
+}
+.servicecontent
+{
+    padding: 2rem;
+    border-top: 1px solid #807F7F;
+}
+.serviceimg{
+height: 56rem;
+
+}
+.serviceimage{
+    width: 10rem;
+    height: 56rem;
+}
+.last
+{
+    border-bottom: 1px solid #807F7F;
+
+}

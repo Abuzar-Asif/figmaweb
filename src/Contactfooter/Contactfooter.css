@@ -1,0 +1,8 @@
+.contactfooterimage{
+    background-image: url('../../public/Rectangle 1786.png');
+    background-position:top;
+    background-size: cover;
+    background-repeat: no-repeat;    
+    height: 35rem;
+    /* width: 100%; */
+}
