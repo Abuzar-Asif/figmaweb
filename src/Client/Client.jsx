@@ -4,7 +4,7 @@ const Client = () => {
   return (
     <>
     
-    <div className=' row ClientFluid d-flex justify-content-center flex-wrap align-items-center'>
+    <div className='g-0 row ClientFluid d-flex justify-content-center flex-wrap align-items-center'>
        <div className='col-6 d-flex justify-content-center flex-wrap align-items-center '>
         <h3 className='clientheading '>
         

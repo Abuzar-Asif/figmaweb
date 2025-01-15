@@ -7,3 +7,9 @@ line-height: 59px;
 text-align: center;
 
 }
+@media only screen and (max-width: 992px) {
+    .hearheading{
+        font-size: 2rem;
+    line-height: 30px;
+    }
+}

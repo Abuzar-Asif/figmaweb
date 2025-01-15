@@ -33,3 +33,11 @@ li::marker {
   .chooseborder{
     border: none ;
   }
+  @media only screen and (max-width: 992px) {
+    .chooseheading{
+      font-size: 2rem
+    }
+    .choosediv3{
+      border: none;
+    }
+  }

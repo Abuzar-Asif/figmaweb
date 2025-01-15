@@ -1,20 +1,71 @@
-import React from 'react'
-import '../Contactfooter/Contactfooter.css'
+import React from "react";
+import "../Contactfooter/Contactfooter.css";
 const Contactfooter = () => {
   return (
     <>
-      <div className="container-fluid">
-        <div className=" row d-flex justify-content-between p-0">
-            <div className="col-6"></div>
-            <div className="col-6 contactfooterimage">
-            </div>
-            <div className="container row">
-            </div>
+      <div className="container-fluid  contactfooterposition">
+        <div className=" row g-0 d-flex justify-content-between ">
+          <div className="col-6"></div>
+          <div className="col-md-6 contactfooterimage"></div>
         </div>
-     
-      </div>
-    </>
-  )
-}
+    
 
-export default Contactfooter
+      {/* <div className="container-fluid"> */}
+        <div className=" contactfooterrow bg-black text-white container row m-auto">
+          <div className="col-md-9 contactfooterform  d-flex flex-wrap justify-content-between align-items-center py-5 px-3">
+            <div className="col-md-6">
+              <p className="contactfooterpara">We are a fast growing full scale digital agency with multiple Certifications and Partnerships. Our team is proud to be featured in multiple publications globally.</p>
+            </div>
+            <div className="col-md-3 px-3 ">
+              <h3 className="contactfooterheading">Information</h3>
+              <p className="contactfooterpara">About Company Services Our Careers Blogs Contact Us</p>
+            </div>
+            <div className="col-md-3 px-3">
+              <h3 className="contactfooterheading">Contact Us</h3>
+              <p className="contactfooterpara">100 N Howard St STE R, Spokane, Washington, 99201-0508, United States</p>
+            </div>
+
+            <div className="col-md-12 py-3">
+              <img src="facebook.png" className="contactimage" alt="" />
+            </div>
+            <div className="col-md-12 footerrightsborder py-5 d-flex justify-content-between align-items-center">
+              <div className="col-md-6">
+                <p className="rightspara">
+                  All Rights Reserved © 2021, Design & <br />
+                  Developed By: Pixarsart
+                </p>
+              </div>
+              <div className="col-md-6 formclassfooter">
+                <input type="text" className="form-control-md formfooter" placeholder="Enter your email" />{" "}
+                <span>
+                  <img src="formarrow.png" alt="" />
+                </span>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-3 py-3 d-flex justify-content-between align-items-center flex-column footerbutton">
+            <div>
+              <h3 className="contactfooterheading">Have Project in your mind</h3>
+            </div>
+            <div>
+              <div className=" butto pb-3 text-white">
+                <button className="btn ">
+                  Lets Talk Us{" "}
+                  <span>
+                    <img src="arrow.png" alt="" />
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div>
+              <h3 className="contactfooterheading">02:00 PM - 11:00 PM</h3>
+              <p className="contactfooterpara text-center">Monday - Friday</p>
+            </div>
+          </div>
+        </div>
+        </div>
+    </>
+  );
+};
+
+export default Contactfooter;

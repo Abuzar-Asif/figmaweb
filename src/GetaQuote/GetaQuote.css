@@ -12,3 +12,10 @@ line-height: 144px;
     border-top: 1px solid #807F7F;
     border-bottom: 1px solid #807F7F;
 }
+@media only screen and (max-width: 992px) {
+    .quoteheading{
+        font-size: 2rem;
+        line-height: 30px;
+        text-align: center;
+    }
+}

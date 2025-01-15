@@ -32,3 +32,47 @@ text-align:justify;
     width: 12rem;
     margin-left: 3rem;
 }
+@media only screen and (max-width: 992px) {
+    .stepsheading{
+        padding: 0;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        margin: 0;
+        font-size: 2rem;
+        line-height: 20px  ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .rectangle1image{
+        padding-top: 2rem;
+        width: 6rem;
+        height: 6rem;
+    }
+    .rectangle2image{
+        width: 6rem;
+        height: 6rem;
+    }
+    .steppaddingremove{
+        padding: 0 !important;
+        margin: 0;
+    }
+    .stepPara{
+        font-size: 8px;
+        line-height: 10px;
+        padding-bottom: 2rem;
+    }
+    .stepbutto{
+        margin: 0;
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 520px) {
+.stepsheading{
+    font-size: 1rem;
+}
+.stepPara{
+    font-size: 7px;
+    padding: 1rem;
+}
+}

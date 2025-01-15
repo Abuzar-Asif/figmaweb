@@ -1,24 +1,40 @@
+.backgrouimg {
+    height: 6rem;
+}
+.bgnav{
+    height: 6rem;
+}
 .backgroundimg{
-    background-image: url('../../public/background.svg');
-    background-position:top;
-    background-size: contain;
+    background-image: url('../../public/background.png');
+    background-position:center;
+    background-size: cover;
     background-repeat: no-repeat;    
-height:44.375rem;
-/* height: 870px; */
+height: 42.800rem;
 width: 100%;
 
 padding: 0;
 
-
+background-color: transparent !important;
    
 
 }
 .backgroundul{
     list-style: none;
   font-size: 14px;
-  margin-left: 8rem;
+  height: 5rem;
+  /* margin-left: 8rem; */
 }
-.backroundli{
-    /* padding-right: 1rem;
-    padding-left: 1rem; */
+
+@media only screen and (max-width: 992px) {
+    /* .backgrouimg {
+       display: none;
+    } */
+    .bgnav{
+        align-items: start !important;
+     
+    }
+    .backroundli{
+        font-size: 8px;
+    }
+    
 }

@@ -4,7 +4,7 @@ import '../Technology/Technology.css'
 const Technology = () => {
   return (
     <>
-      <div className="container-fluid py-5  technology d-flex text-white justify-content-start align-items-center flex-wrap">
+      <div className="container-fluid py-5 row  technology d-flex text-white justify-content-start align-items-center flex-wrap">
             <div className='one'> <p>Webflow</p></div>
             <div className='one'> <p>Vue.js</p></div>
             <div className='one'> <p>Angular js</p></div>

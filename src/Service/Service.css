@@ -25,11 +25,49 @@ height: 56rem;
 
 }
 .serviceimage{
-    width: 10rem;
+    width: 20rem;
     height: 56rem;
 }
 .last
 {
     border-bottom: 1px solid #807F7F;
 
+}
+@media only screen and (max-width: 992px) {
+   .serviceimage{
+    display: none;
+   }
+   .serviceimg{
+    display: none;
+   }
+   .servicepara{
+    text-align: center;
+   }
+   .serviceheading{
+    text-align: center;
+   }
+   .headingpara{
+    text-align: center;
+   }
+   .serviceheading{
+    text-align: center;
+   }
+   .centerbutto{
+    text-align: center  ;
+   }
+   .servicecontent{
+    /* border: none; */
+    padding: 0;
+    
+   }
+   .serviceheading{
+    font-size: 32px;
+    line-height: 20px;
+   }
+   .servicepara{
+    font-size: 8px;
+    line-height: 10px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+   }
 }

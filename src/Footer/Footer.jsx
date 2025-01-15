@@ -17,7 +17,7 @@ const Footer = () => {
                     </p>
                 </div>
             </div>
-            <div className="row">
+            <div className="row ">
                 <div className="col-md-2">
                    
                     <p  className='footerpara'>
@@ -123,14 +123,14 @@ const Footer = () => {
             </div>
           
             <div className="container m-auto py-3 row">
-                <div className="col-md-12">
+                <div className="col-lg-12 col-6-md  col-sm-4">
                     <p className='footermainheading'>
                     Our Offices Locations
                     </p>
                 </div>
             </div>
             <div className="container m-auto footerborder py-3 row">
-                <div className="col-4">
+                <div className="col-lg-4  col-sm-12">
                     <p className='footerheading'>United Kingdom</p>
                     <div className='d-flex'>
                     <p className='footerheading'>Location:  
@@ -145,11 +145,11 @@ const Footer = () => {
                   
                    
                 </div>
-                <div className="col-4">
+                <div className="col-lg-4 col-sm-12">
                     <p className='footerheading'>United States</p>
                     <div className='d-flex'>
 
-                    <p className='footerheading'>Location: 
+                    <p className='footerheading '>Location: 
                     <span className='footerpara'>Flat62A, 4 Mann Island, Liverpool <br />
                      Merseyside, L3 1BP</span></p>
                     </div>
@@ -162,7 +162,7 @@ const Footer = () => {
                     <span className='footerpara'>(972) 464 - 2823</span> </p>
                    </div>
                 </div>
-                <div className="col-4">
+                <div className="col-lg-4 col-sm-12">
                     <p className='footerheading'>Pakistan</p>
                     <div className='d-flex'>
                     <p className='footerheading'>Location:  

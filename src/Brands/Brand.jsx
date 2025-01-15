@@ -15,7 +15,7 @@ const Brand = () => {
           </h3>
         </div>
         </div>
-        <div className="row py-5 d-flex justify-content-center align-items-center flex-wrap">
+        <div className="row g-0 py-5 d-flex justify-content-center align-items-center flex-wrap">
                   <div className='brandimage  col-lg-2 col-md-4'> <img  src="Rectangle 1628.png" alt="" /></div>
                   <div className='brandimage  col-lg-2 col-md-4'> <img  src="Rectangle 1625.png" alt="" /></div>
                   <div className='brandimage  col-lg-2 col-md-4'> <img   src="Group 10554.png" alt="" /></div>

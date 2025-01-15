@@ -4,7 +4,7 @@ import '../App.css'
 const Cards = () => {
   return (
     <>
-    <div className="container-fluid bg-black text-white">
+    <div className="container-fluid g-0 bg-black text-white">
       
         <div className="container py-3 d-flex flex-column justify-content-center align-items-center m-auto row">
               <div className="col-md-12">
@@ -19,7 +19,7 @@ const Cards = () => {
         </div>
 
     <div className="row m-auto container py-5 d-flex justify-content-around align-items-between">
-        <div className="col-3">
+        <div className="col-md-3">
             <div className="card-image-top ">
                 <img src="Rectangle1.png" alt="Picture" />
             </div>
@@ -36,7 +36,7 @@ const Cards = () => {
             </div>
 
         </div>
-        <div className="col-3">
+        <div className="col-md-3">
             <div className="card-image-top ">
                 <img src="Rectangle1.png" alt="Picture" />
             </div>
@@ -53,7 +53,7 @@ const Cards = () => {
             </div>
 
         </div>
-        <div className="col-3">
+        <div className="col-md-3">
             <div className="card-image-top ">
                 <img src="Rectangle1.png" alt="Picture" />
             </div>

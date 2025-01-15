@@ -4,13 +4,13 @@ import '../App.css'
 const Backgroundimage = () => {
   return (
     <>
-    <div className="container-fluid backgroundimg  m-0 p-0">
-      <div className="row">
-        <div className="col-6">
-          <img src="../../public/Group-2-1 (2).png" alt="" />
+    <div className="container-fluid bg-white text-white w-100   m-0 p-0">
+      <div className="row g-0  backgroundimg ">
+        <div className="col-md-6 d-none d-md-flex  backgrouimg d-flex align-items-center justify">
+          <img className='backgrouimg' src="Group-2-1 (2).png" alt="" />
         </div>
-        <div className="col-6">
-          <ul className='backgroundul d-flex justify-content-around align-items-center py-3'>
+        <div className="col-md-6 bgnav">
+          <ul className='backgroundul d-flex justify-content-around align-items-center '>
             <li className='backroundli px-1'>SERVICES</li>
             <li className='backroundli px-1'>OUR WORK</li>
             <li className='backroundli px-1'>BLOG</li>

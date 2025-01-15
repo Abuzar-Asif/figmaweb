@@ -22,7 +22,7 @@ const Step = () => {
                     <img className='rectangle2image' src="Rectangle2.png" alt="" />
                 </div>
                 <div className='d-flex flex-column justify-content-center align-items-start'>
-                    <div className='p-5'>
+                    <div className='p-5 steppaddingremove'>
                         < p className='stepPara'>At Pixarsart our aim is to create the most effective online presence <br /> for your brand. We use the latest technology to provide you with the <br /> most intuitive solutions to cater to all your business needs. We want <br />to see your business thrive.
                         <br />
                         <br />

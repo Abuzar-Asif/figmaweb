@@ -42,3 +42,15 @@ align-items: center;
                 width: 20%;}
                 .divwidth5{
                     width: 22%;}
+
+
+ @media only screen and (max-width: 768px) {
+.technology{
+    font-size: 14px;
+}
+ }
+ @media only screen and (max-width: 368px) {
+.technology{
+    font-size: 10px;
+}
+ }
