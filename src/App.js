@@ -27,12 +27,14 @@ const App = () => {
       <Service/> 
       <Step/>
       <Brand/>
-      <Client/>
+      <Gallery/>  
       <ChooseUs/>
       <Hearmore/>
-      <GetaQuote/>
-      <Gallery/>  
+      <Client/>
       <Cards/>
+   
+      <GetaQuote/>
+ 
       <Footer/>
       <Contactfooter/>
 

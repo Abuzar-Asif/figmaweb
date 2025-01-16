@@ -3,7 +3,7 @@ import '../Offer/Offer.css'
 const Offer = () => {
   return (
     <>
-    <div className="container-fluid pt-5">
+    <div className="container-fluid ">
     <div className="container m-auto">
             <div className='line'>
                 
@@ -15,7 +15,7 @@ const Offer = () => {
                 We are geared towards <br /> versatility and offering you <br />efficiency and the best <br />quality services at every step.
                 </p>
             </div>
-            <div className="butto  text-white">
+            <div className="butto mb-5 buttomargin text-white">
                 <button className='btn '>
                 Contact us  <span><img src="arrow.png" alt="" /></span>
                 </button> 

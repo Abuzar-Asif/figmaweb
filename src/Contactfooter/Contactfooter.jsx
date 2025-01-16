@@ -11,16 +11,16 @@ const Contactfooter = () => {
     
 
       {/* <div className="container-fluid"> */}
-        <div className=" contactfooterrow bg-black text-white container row m-auto">
-          <div className="col-md-9 contactfooterform  d-flex flex-wrap justify-content-between align-items-center py-5 px-3">
-            <div className="col-md-6">
+        <div className=" contactfooterrow bg-black text-white container g-0 row m-auto">
+          <div className="col-md-9 contactfooterform  d-flex flex-wrap justify-content-between align-items-center  px-3">
+            <div className="col-md-6 pt-3">
               <p className="contactfooterpara">We are a fast growing full scale digital agency with multiple Certifications and Partnerships. Our team is proud to be featured in multiple publications globally.</p>
             </div>
-            <div className="col-md-3 px-3 ">
+            <div className="col-md-3 px-3 pt-5 ">
               <h3 className="contactfooterheading">Information</h3>
-              <p className="contactfooterpara">About Company Services Our Careers Blogs Contact Us</p>
+              <p className="contactfooterpara">About Company <br /> Services <br /> Our Careers <br /> Blogs <br /> Contact Us</p>
             </div>
-            <div className="col-md-3 px-3">
+            <div className="col-md-3 px-3 mb-5">
               <h3 className="contactfooterheading">Contact Us</h3>
               <p className="contactfooterpara">100 N Howard St STE R, Spokane, Washington, 99201-0508, United States</p>
             </div>

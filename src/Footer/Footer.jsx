@@ -4,14 +4,14 @@ const Footer = () => {
   return (
     <>
     <div className="container-fluid py-5">
-        <div className="container m-auto containerdiv py-5 ">
+        <div className="container m-auto containerdiv pb-3 ">
             <div className="row">
                 <div className="col">
                     <p className='footermainheading'>
                     Global Clientele and Presence
                     </p>
-                    <br />
-                    <br />
+                    {/* <br />
+                    <br /> */}
                 <p className='footerheading'>
                         United States
                     </p>
@@ -122,14 +122,14 @@ const Footer = () => {
           
             </div>
           
-            <div className="container m-auto py-3 row">
+            <div className="container m-auto pt-3 g-0 row">
                 <div className="col-lg-12 col-6-md  col-sm-4">
                     <p className='footermainheading'>
                     Our Offices Locations
                     </p>
                 </div>
             </div>
-            <div className="container m-auto footerborder py-3 row">
+            <div className="container g-0 m-auto footerborder py-3 row">
                 <div className="col-lg-4  col-sm-12">
                     <p className='footerheading'>United Kingdom</p>
                     <div className='d-flex'>

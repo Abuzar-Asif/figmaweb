@@ -4,8 +4,13 @@ font-family: 'Kanit';
 font-size: 64px;
 font-weight: 500;
 line-height: 59px;
-padding: 3rem;
-margin-left: 3rem;
+padding-left: 3rem;
+padding-top: 3rem;
+margin-right: 11rem;
+}
+.stepheight{
+    height: 35rem;
+
 }
 .rectangle1image
 {

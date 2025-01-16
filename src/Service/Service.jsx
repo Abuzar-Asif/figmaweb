@@ -3,7 +3,7 @@ import "../Service/Service.css";
 const Service = () => {
   return (
     <>
-      <div className="container-fluid">
+      <div className="container-fluid py-5">
         <div className="row container m-auto d-flex justify-content-center align-items-center ">
           <div className="col-md-3">
             <p className="servicepara">Services</p>

@@ -17,8 +17,10 @@ background-color: #121212;
 
 }
 .widthclass{
-    width: 20%;
-    height: 8rem;
+    /* width: 20%;
+    height: 8rem; */
+    width: 11rem;
+    height: 11rem;
     /* border: 1px solid #999999; */
     border: 1px solid #807F7F;
 

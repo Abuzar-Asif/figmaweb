@@ -5,8 +5,8 @@ const Brand = () => {
     <>
   <div className="container-fluid py-5">
     <div className="container m-auto">
-      <div className="row">
-        <div className="col-md-12">
+      <div className="row container m-auto">
+        <div className="col-md-12 BrandMargin">
           <p className='Brandpara'>
           International Brands
           </p>
@@ -14,7 +14,7 @@ const Brand = () => {
           We're happy to work with global <br /> largest brands 
           </h3>
         </div>
-        </div>
+    
         <div className="row g-0 py-5 d-flex justify-content-center align-items-center flex-wrap">
                   <div className='brandimage  col-lg-2 col-md-4'> <img  src="Rectangle 1628.png" alt="" /></div>
                   <div className='brandimage  col-lg-2 col-md-4'> <img  src="Rectangle 1625.png" alt="" /></div>
@@ -34,7 +34,7 @@ const Brand = () => {
         </div>
       </div>
     </div>
-
+  </div>
     </>
   )
 }

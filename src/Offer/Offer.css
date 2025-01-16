@@ -7,6 +7,10 @@
         background-color: #121212;
         color: white;
     }
+    .buttomargin{
+        margin-right: 3rem;
+        width: 11rem !important;
+    }
     .line
     {
         border-left: 1px solid #999999;

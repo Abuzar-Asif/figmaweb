@@ -1,10 +1,15 @@
-.brandpara{
+.Brandpara{
     
 font-family: 'Kanit';
-font-size: 1.125rem;
+font-size: 18px;
 font-weight: 300;
-line-height: 19px;
+/* line-height: 19px; */
 
+
+
+}
+.BrandMargin{
+    padding-left: 3rem;
 }
 .brandheading{
 
@@ -26,12 +31,15 @@ line-height: 59px;
     align-items: center;
 }
 .brandimage{
-    width: 14.28%;
-    height: 12rem;
+    /* width: 14.28%;
+    height: 12rem; */
+    width: 160px;
+    height: 160px;
     border: 1px solid #807F7F;
     display: flex;
     justify-content: center;
     align-items: center;
+    mix-blend-mode: luminosity;
 
 }
 

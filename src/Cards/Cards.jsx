@@ -4,10 +4,10 @@ import '../App.css'
 const Cards = () => {
   return (
     <>
-    <div className="container-fluid g-0 bg-black text-white">
+    <div className="container-fluid g-0 bg-black text-white py-5">
       
-        <div className="container py-3 d-flex flex-column justify-content-center align-items-center m-auto row">
-              <div className="col-md-12">
+        <div className="container pt-3 d-flex flex-column justify-content-center align-items-center m-auto row">
+              <div className="col-md-12 cardHeading  d-flex flex-column justify-content-around align-items-center m-auto">
               <h3 className='cardsheading'>
                Our Featured Blogs
                </h3>
@@ -18,13 +18,13 @@ const Cards = () => {
               
         </div>
 
-    <div className="row m-auto container py-5 d-flex justify-content-around align-items-between">
-        <div className="col-md-3">
+    <div className="row m-auto container py-2 d-flex justify-content-around align-items-between">
+        <div className="col-md-4 Cardpadding">
             <div className="card-image-top ">
-                <img src="Rectangle1.png" alt="Picture" />
+                <img className='rectanglewidth' src="Rectangle1.png" alt="Picture" />
             </div>
             <div className="card-body d-flex flex-column justify-content-between">
-                <p className='cardbodypara'>
+                <p className='cardbodypara py-2'>
                     All Home eCommerce General Main . Sep 24, 2020
                 </p>
                 <h4 className='cardbodyheading'>
@@ -36,12 +36,12 @@ const Cards = () => {
             </div>
 
         </div>
-        <div className="col-md-3">
+        <div className="col-md-4 Cardpadding">
             <div className="card-image-top ">
-                <img src="Rectangle1.png" alt="Picture" />
+                <img className='rectanglewidth' src="Rectangle1.png" alt="Picture" />
             </div>
             <div className="card-body ">
-                <p className='cardbodypara'>
+                <p className='cardbodypara py-2'>
                 All General Main . Sep 24, 2020
                 </p>
                 <h4 className='cardbodyheading'>
@@ -53,16 +53,18 @@ const Cards = () => {
             </div>
 
         </div>
-        <div className="col-md-3">
+        <div className="col-md-4 Cardpadding">
             <div className="card-image-top ">
-                <img src="Rectangle1.png" alt="Picture" />
+                <img className='rectanglewidth' src="Rectangle1.png" alt="Picture" />
             </div>
             <div className="card-body">
-                <p className='cardbodypara'>
+                <p className='cardbodypara py-2'>
                 All Home eCommerce General Main Shopify Woocommerce. Sep 24, 2020
                 </p>
                 <br />
+                
                 <h4 className='cardbodyheading'>
+                    <br />
                 Shopify Vs Woocommerce
                 </h4>
                 

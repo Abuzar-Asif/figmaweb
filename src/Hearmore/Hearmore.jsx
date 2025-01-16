@@ -3,7 +3,7 @@ import '../Hearmore/Hearmore.css'
 const Hearmore = () => {
   return (
     <>
-   <div className="container-fluid">
+   <div className="container-fluid py-5">
     <div className="container m-auto">
         <div className="row">
             <div className="col-md-12">

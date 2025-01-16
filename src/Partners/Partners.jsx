@@ -4,8 +4,8 @@ import '../App.css'
 const Partners = () => {
   return (
     <>
-    <div className="container-fluid maincontainer pt-5 ">
-    <div className="container m-auto pt-5 ">
+    <div className="container-fluid maincontainer py-5 ">
+    <div className="container m-auto  py-5  ">
       <div className='d-flex  '>
 
            <div  className='w-25'>
