@@ -18,7 +18,7 @@ const Cards = () => {
               
         </div>
 
-    <div className="row m-auto container py-2 d-flex justify-content-around align-items-between">
+    <div className="row g-0 m-auto container py-2 d-flex justify-content-around align-items-between">
         <div className="col-md-4 Cardpadding">
             <div className="card-image-top ">
                 <img className='rectanglewidth' src="Rectangle1.png" alt="Picture" />
@@ -61,7 +61,7 @@ const Cards = () => {
                 <p className='cardbodypara py-2'>
                 All Home eCommerce General Main Shopify Woocommerce. Sep 24, 2020
                 </p>
-                <br />
+                {/* <br /> */}
                 
                 <h4 className='cardbodyheading'>
                     <br />

@@ -15,6 +15,15 @@ font-weight: 500;
 line-height: 59px;
 
 }
+.headingpara{
+   
+font-family: 'Kanit';
+font-size: 44px;
+font-weight: 500;
+line-height: 59px;
+
+
+}
 .servicecontent
 {
     padding: 2rem;
@@ -33,7 +42,28 @@ height: 56rem;
     border-bottom: 1px solid #807F7F;
 
 }
+@media only screen and (max-width: 1400px) {
+    .headingpara{
+   
+        font-family: 'Kanit';
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 59px;
+        
+        
+        }
+}
 @media only screen and (max-width: 992px) {
+    .headingpara{
+   
+        font-family: 'Kanit';
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 20px;
+        
+        
+        }
+   
    .serviceimage{
     display: none;
    }
@@ -67,7 +97,12 @@ height: 56rem;
    .servicepara{
     font-size: 8px;
     line-height: 10px;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    /* padding-top: 2rem;
+    padding-bottom: 2rem; */
    }
 }
+@media only screen and (max-width: 992px) {
+.spsize{
+    font-size: 1rem;
+    line-height: 2rem;
+}}

@@ -1,12 +1,13 @@
+
 .stepsheading{
    
 font-family: 'Kanit';
-font-size: 64px;
+font-size: 59px;
 font-weight: 500;
 line-height: 59px;
-padding-left: 3rem;
+/* padding-right: 3rem; */
 padding-top: 3rem;
-margin-right: 11rem;
+/* margin-right: 11rem; */
 }
 .stepheight{
     height: 35rem;
@@ -14,8 +15,12 @@ margin-right: 11rem;
 }
 .rectangle1image
 {
-    width: 15rem;
-    height: 17.5rem;
+    /* width: 15rem;
+    height: 17.5rem; */
+    width: 240px;
+height: 280px;
+
+
 
 }
 .rectangle2{
@@ -38,6 +43,16 @@ text-align:justify;
     margin-left: 3rem;
 }
 @media only screen and (max-width: 992px) {
+    .calflex{
+        display: flex;
+        justify-content: center !important  ;
+    }
+    .stepheight{
+        align-items: center !important;
+    }
+    .stepsheadingflex{
+        justify-content: space-between !important;
+    }
     .stepsheading{
         padding: 0;
         padding-top: 2rem;
@@ -49,14 +64,13 @@ text-align:justify;
         justify-content: center;
         align-items: center;
     }
-    .rectangle1image{
-        padding-top: 2rem;
-        width: 6rem;
-        height: 6rem;
+    .rectangle1image {
+        width: 15rem;
+        height: 15rem;
     }
     .rectangle2image{
-        width: 6rem;
-        height: 6rem;
+        width: 15rem;
+        height: 15rem;
     }
     .steppaddingremove{
         padding: 0 !important;
@@ -71,6 +85,12 @@ text-align:justify;
         margin: 0;
         padding: 0;
     }
+    .rectangle2{
+        width: 80rem;
+    height: 65.375rem;
+    
+    
+    }
 }
 @media only screen and (max-width: 520px) {
 .stepsheading{
@@ -79,5 +99,21 @@ text-align:justify;
 .stepPara{
     font-size: 7px;
     padding: 1rem;
+}
+.rectangle1image {
+    /* padding-top: 2rem; */
+    width:100%;
+  
+}
+.rectangle2image{
+ width: 100%;
+}
+.stepheight {
+    height: 20rem;
+}
+.stepbutto
+{
+  
+    margin-left: 0rem;
 }
 }

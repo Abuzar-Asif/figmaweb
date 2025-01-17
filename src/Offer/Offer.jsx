@@ -3,7 +3,7 @@ import '../Offer/Offer.css'
 const Offer = () => {
   return (
     <>
-    <div className="container-fluid ">
+    <div className="container-fluid pt-1 pb-5 ">
     <div className="container m-auto">
             <div className='line'>
                 

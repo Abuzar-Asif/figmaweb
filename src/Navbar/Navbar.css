@@ -1,4 +1,23 @@
+.navone{
+    font-family: 'Kanit';
+font-size: 15px;
+font-weight: 600;
+line-height: 26px;
 
+
+}
+.navtwo{
+
+font-family: 'Kanit';
+font-size: 12px;
+font-weight: 400;
+line-height: 21px;
+
+
+}
+.navthree{
+    border-right:1px solid #807F7F; ;
+}
 .bar
 {
     background: linear-gradient(-90deg, #000000 -45.54%, #49247A 102.32%);

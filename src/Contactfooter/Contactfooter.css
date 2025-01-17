@@ -15,10 +15,19 @@ line-height: 32px;
 
 
 }
+.contactfooterpara2{
+
+    font-family: 'Kanit';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19px;
+    
+    
+    }
 .contactfooterpara{
 
 font-family: 'Kanit';
-font-size: 12px;
+font-size: 10px;
 font-weight: 300;
 line-height: 19px;
 
@@ -29,7 +38,7 @@ line-height: 19px;
     height: 1rem;
 }
 .footerbutton{
-    height: 23.5rem;
+    height: 24.5rem;
     /* background-color: rgba(153,153,153,0.8); */
 /* background-color: #212121; */
 background-color: #212121;
@@ -45,7 +54,9 @@ line-height: 21px;
 
 }
 .formclassfooter{
+    
     background-color: #212121;
+    width: 25rem !important;
 }
 .formfooter
 
@@ -73,7 +84,72 @@ line-height: 21px;
     background-color: black;
     /* padding: 1rem; */
 }
+
+@media only screen and (max-width: 1200px) {
+    .formclassfooter{
+        width: 21rem !important;
+    }
+    .formfooter{
+        width: 18rem !important;
+    }
+    .contactfooterpara2{
+
+        font-family: 'Kanit';
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 19px;
+        
+        
+        }
+    .contactfooterpara{
+    
+    font-family: 'Kanit';
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 19px;
+    
+    
+    }
+}
 @media only screen and (max-width: 992px) {
+    .rightspara{
+        font-size: 8px;
+    }
+    .formclassfooter{
+        width: 14rem !important;
+    }
+    .formfooter{
+        width: 10rem !important;
+    }
+    .contactfooterheading{
+        font-family: 'Kanit';
+    font-size: 14px !important;
+   
+    
+    
+    }
+    .contactfooterpara{
+    
+        font-family: 'Kanit';
+        font-size: 8px !important;
+      
+        
+        
+        }
+    .contactfooterpara2{
+    
+        font-family: 'Kanit';
+        font-size: 8px !important;
+      
+        
+        
+        }
+        .contactus{
+            padding-top: 1rem;
+        }
+    .contactfooterheading{
+
+    }
      .contactfooterposition{
         /* display: none;
         position: none; */
@@ -102,4 +178,31 @@ line-height: 21px;
         display: none;
     }  */
   
+}
+@media only screen and (max-width: 764px) {
+    .coldisplay
+    {
+        display: none;
+    }
+    .contactfooterform{
+        justify-content: center !important;
+    }
+    .formclassfooter{
+        width: 100% !important;
+    }
+    .formfooter{
+        width: 100% !important;
+    }
+    .rightspara{
+        display: none;
+    }
+    .contactfooterheading{
+        display: none;
+    }
+    .contactfooterpara{
+        display:none;
+    }
+    .contactimage{
+        display: none;
+    }
 }

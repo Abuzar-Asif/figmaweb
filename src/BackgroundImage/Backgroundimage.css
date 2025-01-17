@@ -1,13 +1,13 @@
 .backgrouimg {
-    height: 6rem;
-    padding: 1rem;
+    height: 5rem;
+    padding-left: 1rem;
 }
 .bgnav{
     height: 6rem;
 }
 .backgroundimg{
     background-image: url('../../public/background.png');
-    background-position:center;
+    background-position:left;
     background-size: cover;
     background-repeat: no-repeat;    
 height: 42.800rem;

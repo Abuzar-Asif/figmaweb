@@ -4,24 +4,24 @@ const Step = () => {
   return (
     <>
      <div className="container-fluid py-5">
-        <div className="container m-auto d-flex  justify-content-end">
-                <div className=''>
+        <div className="container row stepsheadingflex m-auto d-flex flex-wrap-reverse justify-content-end">
+                <div className='col-12 calflex col-sm-9 d-flex justify-content-end'>
                     <h3 className='stepsheading'>
                                      We are geared towards <br /> versatility and offering <br /> you efficiency and best <br /> quality services at every 
                           <br />  step.
                      </h3>
                 </div>
-                <div>
-                        <img className='rectangle1image' src="Rectangle1.png" alt="" />
+                <div className='col-12 col-sm-3  d-flex'>
+                        <img className='rectangle1image img-fluid' src="Rectangle1.png" alt="" />
                 </div>
                 {/* .............. */}
                
         </div>
-        <div className="container m-auto d-flex py-5">
-                <div>
+        <div className="container row stepsheadingflex m-auto d-flex py-5">
+                <div className='col-12 col-sm-6'>
                     <img className='rectangle2image' src="Rectangle2.png" alt="" />
                 </div>
-                <div className='d-flex stepheight flex-column justify-content-between align-items-start'>
+                <div className='col-12 col-sm-6 d-flex stepheight flex-column justify-content-between align-items-start'>
                     <div className='p-5 steppaddingremove'>
                         < p className='stepPara'>At Pixarsart our aim is to create the most effective online presence <br /> for your brand. We use the latest technology to provide you with the <br /> most intuitive solutions to cater to all your business needs. We want <br />to see your business thrive.
                         <br />

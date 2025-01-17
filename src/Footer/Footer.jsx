@@ -12,7 +12,7 @@ const Footer = () => {
                     </p>
                     {/* <br />
                     <br /> */}
-                <p className='footerheading'>
+                <p className='footerheading py-3'>
                         United States
                     </p>
                 </div>
@@ -20,7 +20,7 @@ const Footer = () => {
             <div className="row ">
                 <div className="col-md-2">
                    
-                    <p  className='footerpara'>
+                    <p  className='footerpara px-3'>
                           Alabama
                    <br /> Alaska
                    <br /> Arizona
@@ -35,7 +35,7 @@ const Footer = () => {
                     </p>
                 </div>
                 <div className="col-md-2">
-                    <p className='footerpara'>
+                    <p className='footerpara px-3'>
                     Idaho
 <br /> Illinoislndiana
 <br /> Iowa
@@ -50,7 +50,7 @@ const Footer = () => {
                     </p>
                 </div>
                 <div className="col-md-2">
-                    <p className='footerpara'>
+                    <p className='footerpara px-3'>
                     Mississippi
 <br /> Missouri
 <br /> MontanaNebraska
@@ -65,7 +65,7 @@ const Footer = () => {
                     </p>
                 </div>
                 <div className="col-md-2">
-                    <p className='footerpara'>
+                    <p className='footerpara px-3'>
                     Oklahoma
 <br /> Oregon
 <br /> Pen Rhode Island
@@ -80,16 +80,16 @@ const Footer = () => {
                     </p>
                 </div>
                 <div className="col-md-2">
-                    <p className='footerpara'>
+                    <p className='footerpara px-3'>
                     West Virginia
 <br/> Wisconsin
 <br/> Wyoming
                     </p>
-                    <p className='footerheading'>
+                    <p className='footerheading px-3'>
                     Europe
                     </p>
                  
-                    <p className='footerpara'>
+                    <p className='footerpara px-3'>
                     Belgium
 <br/> Austria
 <br/> Denmark
@@ -99,17 +99,17 @@ const Footer = () => {
                     </p>
                 </div>
                 <div className="col-md-2">
-                    <p className='footerpara'>
+                    <p className='footerpara px-3'>
                     Ireland
 <br/> Italy
 <br/> Luxembourg
 <br/> Netherlands
 <br/> Sweden
                     </p>
-               <p className='footerheading'>
+               <p className='footerheading px-3'>
                Global
                </p>
-                    <p className='footerpara'>
+                    <p className='footerpara px-3'>
                     
                     Saudia Arabia
 <br/> UAE
@@ -131,7 +131,7 @@ const Footer = () => {
             </div>
             <div className="container g-0 m-auto footerborder py-3 row">
                 <div className="col-lg-4  col-sm-12">
-                    <p className='footerheading'>United Kingdom</p>
+                    <p className='footerheading py-3'>United Kingdom</p>
                     <div className='d-flex'>
                     <p className='footerheading'>Location:  
                     <span className='footerpara'>Flat62A, 4 Mann Island, Liverpool <br />
@@ -140,39 +140,38 @@ const Footer = () => {
                     </div>
                    <div className='d-flex'>
                    <p className='footerheading'>Phone:  
-                    <span className='footerpara'>(972) 464 - 2823</span></p>
+                    <span className='footerpara px-3'>(972) 464 - 2823</span></p>
                    </div>
                   
                    
                 </div>
                 <div className="col-lg-4 col-sm-12">
-                    <p className='footerheading'>United States</p>
+                    <p className='footerheading py-3'>United States</p>
                     <div className='d-flex'>
 
                     <p className='footerheading '>Location: 
-                    <span className='footerpara'>Flat62A, 4 Mann Island, Liverpool <br />
-                     Merseyside, L3 1BP</span></p>
+                    <span className='footerpara px-3'>  15126 Shellwood LN, Frisco, Texas,</span></p>
                     </div>
                     <div className='d-flex'>
                    <p className='footerheading'>Email:  
-                    <span className='footerpara'>info@pixarsart.com</span></p>
+                    <span className='footerpara px-3'>info@pixarsart.com</span></p>
                    </div>
                    <div className='d-flex'>
                    <p className='footerheading'>Phone: 
-                    <span className='footerpara'>(972) 464 - 2823</span> </p>
+                    <span className='footerpara px-3'>(972) 464 - 2823</span> </p>
                    </div>
                 </div>
                 <div className="col-lg-4 col-sm-12">
-                    <p className='footerheading'>Pakistan</p>
+                    <p className='footerheading py-3'>Pakistan</p>
                     <div className='d-flex'>
                     <p className='footerheading'>Location:  
-                    <span className='footerpara'>Flat62A, 4 Mann Island, Liverpool <br />
-                     Merseyside, L3 1BP</span></p>
+                    <span className='footerpara px-3'>Location:  38D, Nasheman-e-Iqbal, Phase2, Lahore-54000
+                    </span></p>
                     </div>
                    
                    <div className='d-flex'>
                    <p className='footerheading'>Phone:  
-                    <span className='footerpara'>(972) 464 - 2823</span></p>
+                    <span className='footerpara px-3'>(972) 464 - 2823</span></p>
                    </div>
                 </div>
             </div>

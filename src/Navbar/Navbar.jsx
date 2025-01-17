@@ -34,27 +34,41 @@
 // export default Navhead
 
 import React from "react";
-
+import '../Navbar/Navbar.css'
 const Navbar = () => {
   return (
-    <div className="container-fluid">
-      <div>
-      <p className="">
-        <span className="">USA:</span>
-        <span className="">+1 (972) 464-2823</span>
-        <span className="">|</span>
-      </p>
-      <p className=" ">
-        <span className="">UAE:</span>
-        <span className="">+971 058 565-5166</span>
-     <span className="">|</span>
-      </p>
-      <p className="   ">
-        <span className="">PAK:</span>
-        <span className=""> +92 334 7492777 </span>
-      </p>
-      </div>
-    </div>
+  <div className="container-fluid bar">
+      <div className="d-flex justify-content-end align-items-center h-100 ">
+       
+       
+        <p className="d-none d-lg-block d-md-block d-xs-none d-sm-block navthree px-3">
+          <span className="navone px-2">USA:</span>
+          <span className="navtwo">+1 (972) 464-2823</span>
+        
+        </p>
+   
+        <p className="d-none d-lg-block d-md-block d-xs-none d-sm-block mx-3 navthree px-3">
+          <span className="navone px-2">UAE:</span>
+          <span className="navtwo">+971 058 565-5166</span>
+       
+        </p>
+    
+        <p className=" px-3">
+          <span className="navone px-2">PAK:</span>
+          <span className="navtwo">+92 334 7492777</span>
+        </p>
+       
+        {/* <p className="">
+          <span className="">UAE:</span>
+          <span className="">+971 058 565-5166</span>
+          <span className="">|</span>
+        </p>
+        <p className="">
+          <span className="">PAK:</span>
+          <span className=""> +92 334 7492777 </span>
+        </p> */}
+      </div></div>
+   
   );
 };
 

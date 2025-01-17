@@ -8,7 +8,7 @@
         color: white;
     }
     .buttomargin{
-        margin-right: 3rem;
+        /* margin-right: 3rem; */
         width: 11rem !important;
     }
     .line
@@ -78,12 +78,78 @@
 
 
     }
+    @media only screen and (max-width: 1200px) {
+        .buttomargin{
+            margin-right: 0rem;
+           
+        }
+        .line{
+            display: none;
+        }
+        .secondpara{
+            font-size: 34px;
+            line-height: 30px;
+        }
+        .firstpara{
+            font-size: 18px;
+        }
+        .paragraph{
+            margin: 0;
+            border: none;
+        height: auto;
+        
+        }
+        .onepara{
+            padding: 1rem;
+        height: 16rem;
+        font-size: 10px;
+        line-height: 10px;
+        }
+        .twopara{
+            padding: 1rem;
+            height: 16rem;
+            font-size: 10px;
+            line-height: 10px;
+        }
+
+    }
     @media only screen and (max-width: 992px) {
         .line{
             display: none;
         }
         .secondpara{
-            font-size: 24px;
+            font-size: 18px;
+            line-height: 20px;
+        }
+        .firstpara{
+            font-size: 14px;
+        }
+        .paragraph{
+            margin: 0;
+            border: none;
+        height: auto;
+        
+        }
+        .onepara{
+            padding: 1rem;
+        height: 16rem;
+        font-size: 10px;
+        line-height: 10px;
+        }
+        .twopara{
+            padding: 1rem;
+            height: 16rem;
+            font-size: 10px;
+            line-height: 10px;
+        }
+    }
+
+    @media only screen and (max-width: 480px) {
+        .line{
+            display: none;
+        }
+        .secondpara{
+            font-size: 14px;
             line-height: 20px;
         }
         .firstpara{
