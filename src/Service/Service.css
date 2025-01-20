@@ -6,6 +6,8 @@ font-weight: 300;
 line-height: 19px;
 
 
+
+
 }
 .serviceheading{
   
@@ -17,11 +19,12 @@ line-height: 59px;
 }
 .headingpara{
    
-font-family: 'Kanit';
-font-size: 44px;
-font-weight: 500;
-line-height: 59px;
-
+  
+    font-family: 'Kanit';
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 59px;
+ 
 
 }
 .servicecontent

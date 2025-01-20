@@ -8,12 +8,16 @@
 .partnerss
 {
    color:  #FFFFFF;
-   ;
-font-family: 'Kanit';
+  
+
+font-family: Kanit;
 font-size: 32px;
 font-weight: 500;
 line-height: 43px;
-background-color: #121212;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
 
 }
 .widthclass{
@@ -49,7 +53,7 @@ background-color: #121212;
 
 
 }
-
+/* 
     @media screen and (max-width:992px){
         .widthclass{
    
@@ -73,12 +77,9 @@ background-color: #121212;
             line-height: 40px;
         }
    
-    }
-    @media screen and (max-width:768px){
-        /* .partnerssdisplay
-        {
-            display: none;
-        } */
+    } */
+    /* @media screen and (max-width:768px){
+
         .widthclass{
    
             width: 9rem;
@@ -124,4 +125,10 @@ background-color: #121212;
         width: 11rem;
         height: 11rem;
         }
+    } */
+    .column{
+        width: 183px;
+        height: 183px;
+    border: 1px solid #807F7F;
+
     }
