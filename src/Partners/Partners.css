@@ -4,27 +4,30 @@
     background-color: #121212;
     padding: 7rem;
 }
+.column{
+    /* width: 183px; */
+    height: 183px;
+border: 1px solid #807F7F;
 
+}
 .partnerss
 {
    color:  #FFFFFF;
   
 
-font-family: Kanit;
+font-family: 'Kanit';
 font-size: 32px;
 font-weight: 500;
 line-height: 43px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
+
 
 
 }
 .widthclass{
     /* width: 20%;
     height: 8rem; */
-    width: 10rem;
-    height: 10rem;
+    /* width: 10rem;
+    height: 10rem; */
     /* border: 1px solid #999999; */
     border: 1px solid #807F7F;
 
@@ -34,9 +37,36 @@ text-decoration-skip-ink: none;
     
 }
 
-   
-@media screen and (max-width:1224px){
-    .widthclass{
+@media screen and (min-width:1400px){
+    .column{
+        width: 183px;
+        height: 183px;
+    }
+    .partnerss{
+    
+    font-family: 'Kanit';
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 43px;
+    
+    
+    }
+    }
+@media screen and (min-width:1200px) and (max-width:1399px) {
+    .column{
+        width: 167px;
+        height: 167px;
+
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .column{
+        width: 140px !important;
+        height: 140px !important;
+
+    }
+    /* .widthclass{
    
         width: 8.2rem;
         height: 8.2rem;}
@@ -48,11 +78,17 @@ text-decoration-skip-ink: none;
             width: 1rem;
             height: 3rem;
         }
-   
+    */
 
 
 
 }
+@media screen and (max-width:991px){
+    .column{
+        width: none !important;
+    }
+}
+
 /* 
     @media screen and (max-width:992px){
         .widthclass{
@@ -126,9 +162,4 @@ text-decoration-skip-ink: none;
         height: 11rem;
         }
     } */
-    .column{
-        width: 183px;
-        height: 183px;
-    border: 1px solid #807F7F;
-
-    }
+   

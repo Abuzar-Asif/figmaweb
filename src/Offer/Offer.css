@@ -78,6 +78,41 @@
 
 
     }
+    @media only screen and (min-width: 1400px) {
+        .twopara{
+            margin-right: 2rem;
+        }
+.line{
+    margin-left: 7rem;
+}
+.firstpara{
+    
+font-family: 'Kanit';
+font-size: 18px;
+font-weight: 300;
+line-height: 19px;
+
+
+}
+.secondpara{
+   
+font-family: 'Kanit';
+font-size: 64px;
+font-weight: 500;
+line-height: 59px;
+
+
+}
+.paragraph{
+    margin-left: 7rem;
+}
+.offerend{
+    justify-content: space-between !important;
+}
+.onepara{
+    margin-left: 5rem;
+}
+    }
     @media only screen and (max-width: 1200px) {
         .buttomargin{
             margin-right: 0rem;

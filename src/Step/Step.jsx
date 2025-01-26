@@ -11,17 +11,17 @@ const Step = () => {
                           <br />  step.
                      </h3>
                 </div>
-                <div className='col-12 col-sm-3  d-flex'>
+                <div className='col-12 col-sm-3  d-flex justify-content-end'>
                         <img className='rectangle1image img-fluid' src="Rectangle1.png" alt="" />
                 </div>
                 {/* .............. */}
                
         </div>
-        <div className="container row stepsheadingflex m-auto d-flex py-5">
-                <div className='col-12 col-sm-6'>
+        <div className="container row g-0 stepsheadingflex m-auto d-flex py-5">
+                <div className='col-12 col-sm-5'>
                     <img className='rectangle2image' src="Rectangle2.png" alt="" />
                 </div>
-                <div className='col-12 col-sm-6 d-flex stepheight flex-column justify-content-between align-items-start'>
+                <div className='col-12 col-sm-7 d-flex stepheight flex-column justify-content-between align-items-start'>
                     <div className='p-5 steppaddingremove'>
                         < p className='stepPara'>At Pixarsart our aim is to create the most effective online presence <br /> for your brand. We use the latest technology to provide you with the <br /> most intuitive solutions to cater to all your business needs. We want <br />to see your business thrive.
                         <br />

@@ -27,10 +27,10 @@ const Cards = () => {
                 <p className='cardbodypara py-2'>
                     All Home eCommerce General Main . Sep 24, 2020
                 </p>
-                <h4 className='cardbodyheading'>
+                <h4 className='cardbodyheading pb-4'>
                     How To Generate Leads For  Your eCommerce Store
                 </h4>
-                <p className='cardbodypara'>
+                <p className='cardbodypara py-2'>
                 Read More <span><img src="arrow.png" alt="" /></span>
                 </p>
             </div>
@@ -44,10 +44,10 @@ const Cards = () => {
                 <p className='cardbodypara py-2'>
                 All General Main . Sep 24, 2020
                 </p>
-                <h4 className='cardbodyheading'>
+                <h4 className='cardbodyheading pb-4'>
                 How To Become An Expert Email Marketer In No Time
                 </h4>
-                <p className='cardbodypara'>
+                <p className='cardbodypara py-2'>
                 Read More <span><img src="arrow.png" alt="" /></span>
                 </p>
             </div>
@@ -63,12 +63,12 @@ const Cards = () => {
                 </p>
                 {/* <br /> */}
                 
-                <h4 className='cardbodyheading'>
-                    <br />
+                <h4 className='cardbodyheading pb-5'>
+                    {/* <br /> */}
                 Shopify Vs Woocommerce
                 </h4>
                 
-                <p className='cardbodypara'>
+                <p className='cardbodypara py-2'>
                 Read More <span><img src="arrow.png" alt="" /></span>
                 </p>
             </div>

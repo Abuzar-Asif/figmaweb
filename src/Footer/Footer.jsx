@@ -3,7 +3,7 @@ import '../Footer/Footer.css'
 const Footer = () => {
   return (
     <>
-    <div className="container-fluid py-5">
+    <div className="container-fluid pb-5">
         <div className="container m-auto containerdiv pb-3 ">
             <div className="row">
                 <div className="col">
@@ -12,7 +12,7 @@ const Footer = () => {
                     </p>
                     {/* <br />
                     <br /> */}
-                <p className='footerheading py-3'>
+                <p className='footerheading py-4'>
                         United States
                     </p>
                 </div>
@@ -85,7 +85,7 @@ const Footer = () => {
 <br/> Wisconsin
 <br/> Wyoming
                     </p>
-                    <p className='footerheading px-3'>
+                    <p className='footerheading pt-4 pb-2 '>
                     Europe
                     </p>
                  
@@ -106,7 +106,7 @@ const Footer = () => {
 <br/> Netherlands
 <br/> Sweden
                     </p>
-               <p className='footerheading px-3'>
+               <p className='footerheading pt-4 pb-2'>
                Global
                </p>
                     <p className='footerpara px-3'>
@@ -134,7 +134,7 @@ const Footer = () => {
                     <p className='footerheading py-3'>United Kingdom</p>
                     <div className='d-flex'>
                     <p className='footerheading'>Location:  
-                    <span className='footerpara'>Flat62A, 4 Mann Island, Liverpool <br />
+                    <span className='footerpara lh-1'>Flat62A, 4 Mann Island, Liverpool <br />
                      Merseyside, L3 1BP</span>
                     </p>
                     </div>
@@ -165,7 +165,7 @@ const Footer = () => {
                     <p className='footerheading py-3'>Pakistan</p>
                     <div className='d-flex'>
                     <p className='footerheading'>Location:  
-                    <span className='footerpara px-3'>Location:  38D, Nasheman-e-Iqbal, Phase2, Lahore-54000
+                    <span className='footerpara px-3 '>Location:  38D, Nasheman-e-Iqbal, Phase2, Lahore-54000
                     </span></p>
                     </div>
                    

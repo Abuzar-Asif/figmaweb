@@ -51,7 +51,7 @@ const Partners = () => {
               Partners & <br /> Certifications
             </h4>
           </div>
-          <div className="col-12  col-lg-9 ">
+          <div className="col-12 col-sm-12    col-lg-9 ">
             {/* <div className="row   row-cols-5 flex-wrap">
               <div className="column col-6  d-flex justify-content-center align-items-center">
                 <img src="Wordpress.png" alt="" />
@@ -70,38 +70,39 @@ const Partners = () => {
               </div>
               
             </div> */}
-            <div className="row  g-0 row-cols-1 row-cols-sm-2 row-cols-lg-5 flex-wrap">
-              <div  width={'183px'} height={'183px'}  className="column col d-flex justify-content-center align-items-center">
+            {/* <div className="row  g-0 row-cols-1 row-cols-sm-2 row-cols-lg-5 flex-wrap"> */}
+            <div className="row  g-0  row-cols-lg-5 flex-wrap">
+              <div    className="column col-xs-12 col-sm-6 col-lg-6   d-flex justify-content-center align-items-center">
                 <img  width={'86px'} height={'56px'}  src="Wordpress.png" alt="" />
               </div>
-              <div  width={'183px'} height={'183px'}  className="column col  d-flex justify-content-center align-items-center">
+              <div    className="column col-xs-12 col-sm-6 col-lg-6   d-flex justify-content-center align-items-center">
                 <img width={'64px'} height={'37px'}  src="AWS.png" alt="" />
               </div>
-              <div  width={'183px'} height={'183px'}  className="column  col   d-flex justify-content-center align-items-center">
+              <div    className="column col-xs-12 col-sm-6 col-lg-6   d-flex justify-content-center align-items-center">
                 <img width={'134px'} height={'35px'}  src="toddbailey.png" alt="" />
               </div>
-              <div width={'183px'} height={'183px'}   className="column col d-flex justify-content-center align-items-center">
+              <div    className="column col-xs-12 col-sm-6 col-lg-6  d-flex justify-content-center align-items-center">
                 <img width={'116px'} height={'43px'}  src="GooglePartner.png" alt="" />
               </div>
-              <div  width={'183px'} height={'183px'}  className="column  col   d-flex justify-content-center align-items-center">
+              <div    className="column col-xs-12 col-sm-12 col-lg-6      d-flex justify-content-center align-items-center">
                 <img width={'28px'} height={'64px'}  src="Tree.png" alt="" />
               </div>
               
             
          
-              <div  width={'183px'} height={'183px'}  className="column col d-flex justify-content-center align-items-center">
+              <div    className="column col-xs-12 col-sm-6 col-lg-6 col--xxl d-flex justify-content-center align-items-center">
                 <img width={'127px'} height={'35px'}   src="Shopify.png" alt="" />
               </div>
-              <div  width={'183px'} height={'183px'}  className="column col  d-flex justify-content-center align-items-center">
+              <div    className="column col-xs-12 col-sm-6 col-lg-6 col--xxl  d-flex justify-content-center align-items-center">
                 <img width={'92px'} height={'43px'}    src="SquareSpace.png" alt="" />
               </div>
-              <div  width={'183px'} height={'183px'}  className="column  col   d-flex justify-content-center align-items-center">
+              <div    className="column col-xs-12 col-sm-6 col-lg-6 col--xxl   d-flex justify-content-center align-items-center">
                 <img width={'138px'} height={'32px'}   src="Discipline.png"  alt="" />
               </div>
-              <div  width={'183px'} height={'183px'}  className="column col d-flex justify-content-center align-items-center">
+              <div    className="column col-xs-12 col-sm-6  col-lg-6 col--xxl d-flex justify-content-center align-items-center">
                 <img  width={'103px'} height={'24px'}   src="Elfamoso.png"  alt="" />
               </div>
-              <div  width={'183px'} height={'183px'}  className="column  col   d-flex justify-content-center align-items-center">
+              <div    className="column col-xs-12 col-sm-12 col-lg-6  col--xxl   d-flex justify-content-center align-items-center">
                 <img   width={'59px'} height={'23px'}  src="WIX.png"  alt="" />
               </div>
               </div>

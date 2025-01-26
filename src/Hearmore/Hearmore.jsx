@@ -5,9 +5,9 @@ const Hearmore = () => {
     <>
    <div className="container-fluid py-5">
     <div className="container m-auto">
-        <div className="row">
-            <div className="col-md-12">
-                <h3 className='hearheading'>
+        <div className="row g-0">
+            <div className="col-md-12 py-5">
+                <h3 className='hearheading '>
                 We would love to <br /> hear more about your <br /> project
                 </h3>
             </div>

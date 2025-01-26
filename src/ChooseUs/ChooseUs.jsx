@@ -8,9 +8,9 @@ const ChooseUs = () => {
      <div className="container m-auto">
         <div className="row">
             <div className="py-5 col-md-12 d-flex justify-content-center align-items-center">
-                <h3 className='chooseheading'>
+                <h4 className='chooseheading'>
                     Why Choose Us
-                </h3>
+                </h4>
             </div>
             <div className="row pb-5">
                 <div className="col-md-3 choosediv3">

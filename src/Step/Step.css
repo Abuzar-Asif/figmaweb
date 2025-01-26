@@ -2,7 +2,8 @@
 .stepsheading{
    
 font-family: 'Kanit';
-font-size: 59px;
+/* font-size: 59px; */
+font-size: clamp(2rem, 1.6625rem + 1.6875vw, 3.6875rem);
 font-weight: 500;
 line-height: 59px;
 /* padding-right: 3rem; */
@@ -42,6 +43,31 @@ text-align:justify;
     width: 12rem;
     margin-left: 3rem;
 }
+@media only screen and (min-width: 1400px) {
+    .stepPara{
+        padding-top: 3rem;
+    }
+    .btn{
+        margin: 0 !important;
+    }
+    .stepbutto{
+        margin: 0 !important;
+    }
+    .steppaddingremove{
+        padding: 0 !important;
+    }
+    .stepsheading{
+        padding-left: 5rem;
+    }
+.calflex{
+    justify-content: center !important;
+}
+}
+@media only screen and (max-width: 1399px) {
+    .steppaddingremove{
+        /* padding: 0 !important; */
+    }
+}
 @media only screen and (max-width: 992px) {
     .calflex{
         display: flex;
@@ -58,8 +84,8 @@ text-align:justify;
         padding-top: 2rem;
         padding-bottom: 2rem;
         margin: 0;
-        font-size: 2rem;
-        line-height: 20px  ;
+        /* font-size: 2rem; */
+        line-height: 40px  ;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -94,7 +120,8 @@ text-align:justify;
 }
 @media only screen and (max-width: 520px) {
 .stepsheading{
-    font-size: 1rem;
+    /* font-size: 1rem; */
+    line-height: 30px;
 }
 .stepPara{
     font-size: 7px;

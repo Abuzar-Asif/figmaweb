@@ -29,7 +29,7 @@ const App = () => {
       <Brand/>
       <Gallery/>  
       <ChooseUs/>
-      <Hearmore/>
+    <Hearmore/>
       <Client/>
       <Cards/>
    

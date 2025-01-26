@@ -5,7 +5,7 @@ const Contactfooter = () => {
     <>
       <div className="container-fluid  contactfooterposition">
         <div className=" row g-0 d-flex justify-content-between ">
-          <div className="col-6"></div>
+          <div className="col-6 footlength"></div>
           <div className="col-md-6 contactfooterimage"></div>
         </div>
     

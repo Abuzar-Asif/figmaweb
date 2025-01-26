@@ -47,7 +47,7 @@ const Navbar = () => {
         
         </p>
    
-        <p className="d-none d-lg-block d-md-block d-xs-none d-sm-block mx-3 navthree px-3">
+        <p className="d-none d-lg-block d-md-block d-xs-none d-sm-block  navthree px-3">
           <span className="navone px-2">UAE:</span>
           <span className="navtwo">+971 058 565-5166</span>
        

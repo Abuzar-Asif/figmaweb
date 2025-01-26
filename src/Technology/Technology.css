@@ -17,7 +17,9 @@ box-sizing: border-box;
     justify-content: start;
     align-items: center;
     font-family: 'Kanit';
-font-size: 26px;
+    /* font-size: clamp(1.125rem, 1.025rem + 0.5vw, 1.625rem); */
+    /* font-size: clamp(0.875rem, 0.725rem + 0.75vw, 1.625rem); */
+    font-size: clamp(0.625rem, 0.425rem + 1vw, 1.625rem);
 font-weight: 400;
 line-height: 16px;
 
@@ -35,7 +37,9 @@ line-height: 16px;
 justify-content: start;
 align-items: center;
 font-family: 'Kanit';
-font-size: 26px;
+/* font-size: clamp(1.125rem, 1.025rem + 0.5vw, 1.625rem); */
+/* font-size: clamp(0.875rem, 0.725rem + 0.75vw, 1.625rem); */
+font-size: clamp(0.625rem, 0.425rem + 1vw, 1.625rem);
 font-weight: 400;
 line-height: 16px;
 
@@ -54,13 +58,14 @@ line-height: 16px;
                     width: 22%;}
 
 
- @media only screen and (max-width: 768px) {
-.technology{
-    font-size: 14px;
-}
- }
+
+
  @media only screen and (max-width: 480px) {
-.technology{
-    font-size: 8px;
+.one{
+    padding-left: .2rem !important;
 }
- }
+.two{
+    padding-left: .2rem !important;
+
+}
+ } 

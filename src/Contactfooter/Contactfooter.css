@@ -6,6 +6,9 @@
     height: 35rem;
     /* width: 100%; */
 }
+.footlength{
+    height: 42rem !important;
+}
 .contactfooterheading{
     font-family: 'Kanit';
 font-size: 20px;
@@ -85,6 +88,11 @@ line-height: 21px;
     /* padding: 1rem; */
 }
 
+@media only screen and (min-width: 1400px) {
+    .contactfooterrow{
+        max-width: 1600px !important;
+    }
+}
 @media only screen and (max-width: 1200px) {
     .formclassfooter{
         width: 21rem !important;

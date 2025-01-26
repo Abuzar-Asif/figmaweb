@@ -8,12 +8,12 @@ const Offer = () => {
             <div className='line'>
                 
             </div>
-            <div className='d-flex  justify-content-between align-items-center mt-3'>
+            <div className='d-flex   justify-content-between align-items-center mt-3'>
             <div className="content">
                 <p className='firstpara'>We Are geared Towards</p>
-                <p className='secondpara'>
+                <h3 className='secondpara'>
                 We are geared towards <br /> versatility and offering you <br />efficiency and the best <br />quality services at every step.
-                </p>
+                </h3>
             </div>
             <div className="butto mb-5 buttomargin text-white">
                 <button className='btn '>
@@ -21,7 +21,7 @@ const Offer = () => {
                 </button> 
             </div>
             </div>
-            <div className="paragraph  mt-5 d-flex justify-content-evenly align-items-center">
+            <div className="paragraph offerend  mt-5 d-flex justify-content-evenly align-items-center">
            
                     <p className='onepara '>At Pixarsart our aim is to create the most effective online presence for your <br />  brand. We use the latest technology to provide you with the most intuitive <br /> solutions to cater to all your business needs. We want to see your business <br /> thrive.</p>
              

@@ -9,7 +9,7 @@ font-weight: 300;
 
 }
 .BrandMargin{
-    padding-left: 3rem;
+    /* padding-left: 3rem; */
 }
 .brandheading{
 
@@ -48,6 +48,15 @@ line-height: 59px;
     
 }
 
+@media only screen and (min-width: 1400px) {
+    .brandmargin{
+        margin: 0 !important;
+    }
+    .brandimage{
+        width: 183px;
+        height: 183px;
+    }
+}
 @media only screen and (max-width: 992px) {
     .brandimage{
         width:100%;
