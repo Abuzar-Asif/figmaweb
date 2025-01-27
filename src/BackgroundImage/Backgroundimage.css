@@ -1,11 +1,19 @@
+
+
 .digitalheading{
     font-weight: 600;
-    font-size: 4.8rem;
+    /* font-size: 4.8rem; */
+    font-size: clamp(50px, 7.5vw, 120px) !important;
+
 }
 .Artists{
-    font-family: "Tusker", Sans-serif !important;
-    font-size: clamp(30px, 7.5vw, 75px) !important;
-    text-transform: uppercase;
+    font-family: "kanit" !important;
+    /* font-family: "Tusker", Sans-serif !important; */
+    font-weight: 900;
+    /* font-size: 12rem; */
+    /* font-family: 'Space Grotesk', sans-serif !important; */
+    font-size: clamp(80px, 7.5vw, 192px) !important;
+    /* text-transform: uppercase;
     padding-left: 15px;
     margin-top: 0;
         margin-bottom: .5rem;
@@ -20,7 +28,7 @@
     transform: translate(0px, 0px);
     margin: 0;
     display: inline-block;
-    /* font-size: clamp(40em, 2.5vw, 40em); */
+    font-size: clamp(40em, 2.5vw, 40em);
     font-size: clamp(90px, 14.06vw, 270px) !important;
     color: #ffffff;
     cursor: pointer;
@@ -29,7 +37,7 @@
     transition: .3s all;
     letter-spacing: 5px;
     --fontHeight: 100;
-    font-variation-settings: "hght" var(--fontHeight), "wdth" 1;
+    font-variation-settings: "hght" var(--fontHeight), "wdth" 1; */
 }
 
 

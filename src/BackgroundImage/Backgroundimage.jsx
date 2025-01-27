@@ -1,6 +1,8 @@
 import React from 'react'
 import './Backgroundimage.css'
 import '../App.css'
+// import '@fontsource/space-grotesk';
+
 const Backgroundimage = () => {
   return (
     <>
@@ -20,14 +22,14 @@ const Backgroundimage = () => {
             <li className='backroundli px-1'> <img src="arrow.png" alt="" /></li>
           </ul>
         </div>
-        {/* <div className="col-12">
+        <div className="col-12">
           <h3 className='digitalheading'>
             We are the Digital
           </h3>
           <h1 className='Artists'>
             ARTISTS
           </h1>
-        </div> */}
+        </div>
       </div>
        
   
