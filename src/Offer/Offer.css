@@ -153,8 +153,8 @@ line-height: 59px;
             display: none;
         }
         .secondpara{
-            font-size: 18px;
-            line-height: 20px;
+            font-size: 28px;
+            line-height: 40px;
         }
         .firstpara{
             font-size: 14px;
@@ -180,15 +180,18 @@ line-height: 59px;
     }
 
     @media only screen and (max-width: 480px) {
+        .buttomargin{
+            margin: 0 !important;
+        }
         .line{
             display: none;
         }
         .secondpara{
-            font-size: 14px;
+            font-size: 12px;
             line-height: 20px;
         }
         .firstpara{
-            font-size: 14px;
+            font-size: 8px;
         }
         .paragraph{
             margin: 0;
@@ -208,4 +211,8 @@ line-height: 59px;
             font-size: 10px;
             line-height: 10px;
         }
+        /* .buttoon{
+            width: 6rem;
+            height: 6rem;
+        } */
     }

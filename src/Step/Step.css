@@ -69,6 +69,7 @@ text-align:justify;
     }
 }
 @media only screen and (max-width: 992px) {
+  
     .calflex{
         display: flex;
         justify-content: center !important  ;
@@ -90,13 +91,18 @@ text-align:justify;
         justify-content: center;
         align-items: center;
     }
-    .rectangle1image {
+    /* .rectangle1image {
         width: 15rem;
         height: 15rem;
+    } */
+    .rectangle1image {
+        /* padding-top: 2rem; */
+        width:100%;
+      
     }
     .rectangle2image{
-        width: 15rem;
-        height: 15rem;
+        width:100%;
+
     }
     .steppaddingremove{
         padding: 0 !important;
@@ -119,13 +125,14 @@ text-align:justify;
     }
 }
 @media only screen and (max-width: 520px) {
+
 .stepsheading{
     /* font-size: 1rem; */
     line-height: 30px;
 }
 .stepPara{
-    font-size: 7px;
-    padding: 1rem;
+    font-size: 14px;
+    line-height: 20px;
 }
 .rectangle1image {
     /* padding-top: 2rem; */

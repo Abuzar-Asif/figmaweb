@@ -39,16 +39,16 @@ color:  #999999;
 }
 .servicecontent
 {
-    padding: 2rem;
+    /* padding: 2rem; */
     border-top: 1px solid #807F7F;
 }
-.serviceimg{
+/* .serviceimg{
 height: 56rem;
 
-}
+} */
 .serviceimage{
     width: 20rem;
-    height: 56rem;
+    height: 720px;
 }
 .last
 {
@@ -65,10 +65,10 @@ height: 56rem;
         align-items: end !important;
     }
     .servicecontent{
-        height: 10rem !important;
+        height: 9rem !important;
         padding: 0 !important;
-        padding-top: 2rem !important;
-        padding-bottom: 2rem !important;
+        /* padding-top: 2rem !important;
+        padding-bottom: 2rem !important; */
     }
     .servicepara{
         font-size: 14px;
@@ -95,6 +95,12 @@ height: 56rem;
                 }
 }
 @media only screen and (max-width: 1400px) {
+    .servicepara{
+        font-size: 14px !important;
+    }
+    .Serviceheading{
+        line-height: 30px !important;
+    }
     .arrowsize{
         width: 25px;
         height: 25px;
@@ -123,6 +129,10 @@ line-height: 19px;
 
 }
 @media only screen and (max-width: 992px) {
+    
+    .Serviceheading{
+        line-height: 30px !important;
+    }
     .arrowsize{
         width: 25px;
         height: 25px;
@@ -169,21 +179,31 @@ line-height: 19px;
     line-height: 20px;
    } */
    .servicepara{
-    font-size: 8px;
-    line-height: 10px;
+    font-size: 10px !important;
+    line-height: 20px;
     /* padding-top: 2rem;
     padding-bottom: 2rem; */
    }
    .spsize{
-    font-size: 1rem;
+    font-size: 14px;
     line-height: 2rem;
 }
 }
 @media only screen and (max-width: 480px) {
+    .arrowsize{
+        width: 10px !important;
+        height: 10px !important;
+    }
     .servicepara{
         padding-right: 1rem !important;
     padding-left: 2rem !important;
     }
+    .servicepara{
+        font-size: 8px !important;
+        line-height: 15px;
+        /* padding-top: 2rem;
+        padding-bottom: 2rem; */
+       }
     .arrowsize{
         width: 25px;
         height: 25px;

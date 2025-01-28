@@ -14,7 +14,7 @@ const Brand = () => (
 
           <div className="row g-0 py-5 d-flex justify-content-center align-items-center flex-wrap">
             <div className="col-xs-10 col-sm-10 col-md-10 col-xxl-12 brandmargin  m-auto d-flex justify-content-center align-items-center flex-wrap">
-              <div className="brandimage col-sm-6  col-lg col-md-4">
+              <div className="brandimage br col-6 col-sm-6  col-lg col-md-4">
                 {" "}
                 <img
                   width={"128px"}
@@ -23,7 +23,7 @@ const Brand = () => (
                   alt=""
                 />
               </div>
-              <div className="brandimage col-sm-6  col-lg col-md-4">
+              <div className="brandimage br col-6 col-sm-6  col-lg col-md-4">
                 {" "}
                 <img
                   width={"144px"}
@@ -32,7 +32,7 @@ const Brand = () => (
                   alt=""
                 />
               </div>
-              <div className="brandimage col-sm-6  col-lg col-md-4">
+              <div className="brandimage br col-6 col-sm-6  col-lg col-md-4">
                 {" "}
                 <img
                   width={"75px"}
@@ -41,7 +41,7 @@ const Brand = () => (
                   alt=""
                 />
               </div>
-              <div className="brandimage col-sm-6 col-lg col-md-4">
+              <div className="brandimage br col-6 col-sm-6 col-lg col-md-4">
                 {" "}
                 <img
                   width={"95px"}
@@ -50,7 +50,7 @@ const Brand = () => (
                   alt=""
                 />
               </div>
-              <div className="brandimage col-sm-6  col-lg col-md-4">
+              <div className="brandimage br col-6 col-sm-6  col-lg col-md-4">
                 {" "}
                 <img
                   width={"98px"}
@@ -60,21 +60,21 @@ const Brand = () => (
                   alt=""
                 />
               </div>
-              <div className="brandimage col-sm-6  col-lg col-md-4">
+              <div className="brandimage borr br col-6 col-sm-6  col-lg col-md-4">
                 {" "}
                 <img width={"112px"} height={"32px"} 
                 // src="Group.png"
                 src="BBC 1.png"
                  alt="" />
               </div>
-              <div className="brandimage col-sm-6  col-lg col-md-4">
+              <div className="brandimage borb lb  col-6 col-sm-6  col-lg col-md-4">
                 {" "}
                 <img width={"116px"} height={"48px"}
                  src="Pixie Cup 1.png"
                 //  src="BBC 1.png"
                   alt="" />
               </div>
-              <div className="brandimage borderbottom  col-sm-6 col-lg-2 col-md-4">
+              <div className="brandimage br bb borderbottom col-6  col-sm-6 col-lg-2 col-md-4">
                 {" "}
                 <img
                   width={"90px"}
@@ -84,7 +84,7 @@ const Brand = () => (
                   alt=""
                 />
               </div>
-              <div className="brandimage borderbottom col-sm-6 col-lg col-md-4">
+              <div className="brandimage br bb borderbottom col-6 col-sm-6 col-lg col-md-4">
                 {" "}
                 <img
                   width={"110px"}
@@ -94,14 +94,14 @@ const Brand = () => (
                   alt=""
                 />
               </div>
-              <div className="brandimage borderbottom col-sm-6  col-lg col-md-4">
+              <div className="brandimage br bb borderbottom col-6 col-sm-6  col-lg col-md-4">
                 {" "}
                 <img width={"113px"} height={"56px"} 
                 src="Margot 1.png"
                 // src="Hyp Rov.png"
                  alt="" />
               </div>
-              <div className="brandimage borderbottom col-sm-6 col-lg col-md-4">
+              <div className="brandimage br bb borderbottom col-6 col-sm-6 col-lg col-md-4">
                 {" "}
                 <img
                   width={"104px"}
@@ -111,7 +111,7 @@ const Brand = () => (
                   alt=""
                 />
               </div>
-              <div className="brandimage borderbottom col-sm-6 col-lg col-md-4">
+              <div className="brandimage borr br bb borderbottom col-6 col-sm-6 col-lg col-md-4">
                 {" "}
                 <img
                   width={"144px"}
@@ -121,7 +121,7 @@ const Brand = () => (
                   alt=""
                 />
               </div>
-              <div className="brandimage borderbottom col-sm-6  col-lg col-md-4">
+              <div className="brandimage br bb borderbottom col-sm-6   col-6 col-lg col-md-4">
                 {" "}
                 <img
                   width={"82px"}
@@ -131,7 +131,7 @@ const Brand = () => (
                   alt=""
                 />
               </div>
-              <div className="brandimage borderbottom  col-sm-6 col-lg col-md-4 ">
+              <div className="brandimage bb borderbottom lb col-6 col-sm-6 col-lg col-md-4 ">
                 {" "}
                 <img
                   width={"123px"}

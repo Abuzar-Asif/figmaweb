@@ -35,7 +35,8 @@ line-height: 59px;
     height: 12rem; */
     width: 120px;
     height: 120px;
-    border: 1px solid #807F7F;
+    border-top: 1px solid #807F7F;
+    border-left: 1px solid #807F7F;
     /* border-left: 1px solid #807F7F; */
     display: flex;
     justify-content: center;
@@ -43,12 +44,19 @@ line-height: 59px;
     mix-blend-mode: luminosity;
 
 }
+.lb{
+    border-right: 1px solid #807F7F;
+}
 .borderbottom {
     /* border-bottom: 1px solid #807F7F; */
     
 }
 
 @media only screen and (min-width: 1400px) {
+    .bb{
+    border-bottom: 1px solid #807F7F;
+
+    }
     .brandmargin{
         margin: 0 !important;
     }
@@ -57,7 +65,32 @@ line-height: 59px;
         height: 183px;
     }
 }
+@media only screen and (max-width: 1399px) {
+    .bb{
+        border-bottom: 1px solid #807F7F;
+    
+        }
+}
+
+@media only screen and (max-width: 1200px) {
+    .bb{
+        border-bottom: 1px solid #807F7F;
+    
+        }
+        .borb{
+        border-bottom: 1px solid #807F7F;
+
+        }
+        .borr{
+        border-right: 1px solid #807F7F;
+
+        }
+}
 @media only screen and (max-width: 992px) {
+    .br{
+        border-right: 1px solid #807F7F;
+
+    }
     .brandimage{
         width:100%;
     }

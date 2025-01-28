@@ -4,10 +4,12 @@
     background-color: #121212;
     padding: 7rem;
 }
+
 .column{
     /* width: 183px; */
     height: 183px;
-border: 1px solid #807F7F;
+border-top: 1px solid #999999;
+border-left: 1px solid #999999;
 
 }
 .partnerss
@@ -29,7 +31,7 @@ line-height: 43px;
     /* width: 10rem;
     height: 10rem; */
     /* border: 1px solid #999999; */
-    border: 1px solid #807F7F;
+    border: 1px solid #999999;
 
     display: flex;
     justify-content: center;
@@ -38,9 +40,18 @@ line-height: 43px;
 }
 
 @media screen and (min-width:1400px){
+    .bt{
+        border-bottom: 1px solid #999999;
+            
+        }
+    .tree{
+        border-right:1px solid #999999 ;
+    }
     .column{
         width: 183px;
         height: 183px;
+        border-top: 1px solid #999999;
+border-left: 1px solid #999999;
     }
     .partnerss{
     
@@ -53,6 +64,13 @@ line-height: 43px;
     }
     }
 @media screen and (min-width:1200px) and (max-width:1399px) {
+    .bt{
+        border-bottom: 1px solid #999999;
+            
+        }
+    .tree{
+        border-right:1px solid #999999 ;
+    }
     .column{
         width: 167px;
         height: 167px;
@@ -61,6 +79,13 @@ line-height: 43px;
 }
 
 @media screen and (min-width:992px) and (max-width:1199px) {
+    .bt{
+        border-bottom: 1px solid #999999;
+            
+        }
+    .tree{
+        border-right:1px solid #999999 ;
+    }
     .column{
         width: 140px !important;
         height: 140px !important;
@@ -84,6 +109,9 @@ line-height: 43px;
 
 }
 @media screen and (max-width:991px){
+    .ntb{
+        border-top: none !important;
+    }
     .column{
         width: none !important;
     }
@@ -162,4 +190,115 @@ line-height: 43px;
         height: 11rem;
         }
     } */
+@media screen  and (max-width:991px){
+    /* .column{
+        width: 125px;
+        height: 125px;
+    } */
+    .rb{
+        border-right: 1px solid #999999;
+
+    }
+    .bt{
+        border-bottom: 1px solid #999999;
+            
+        }
+        .ntb{
+            border-top: 1px solid #999999  !important;
+           
+        }
+        /* .widthclass1{
+            width:'30px' !important; height:'53px' !important; 
+        }
+        .widthclass2{
+            width:'24px' !important; height:'33px' !important;
+        }
+        .widthclass3{
+            width:'50px' !important; height:'31px' !important;
+        }
+        .widthclass4{
+            width:'50px' !important; height:'39px' !important; 
+        }
+        .widthclass5{
+            width:'12px' !important; height:'60px' !important; 
+        }
+        .widthclass6{
+            width:'50px' !important; height:'31px'; 
+        }
+        .widthclass7{
+            width:'30px' !important; height:'39px' !important;
+        }
+        .widthclass8{
+            width:'50px' !important; height:'28px' !important;
+        }
+        .widthclass9{
+            width:'70px' !important; height:'20px' !important; 
+        }
+        .widthclass10{
+            width:'30px' !important; height:'20px' !important;
+        }
+         */
+}
+@media screen and (min-width:578px)  and (max-width:767px){
+    /* .column{
+        width: 100px;
+        height: 100px;
+    } */
+    /* .widthclass1{
+        width:'86px'; height:'56px'; 
+    }
+    .widthclass2{
+        width:'64px'; height:'37px';
+    }
+    .widthclass3{
+        width:'134px'; height:'35px';
+    }
+    .widthclass4{
+        width:'116px'; height:'43px'; 
+    }
+    .widthclass5{
+        width:'28px'; height:'64px'; 
+    }
+    .widthclass6{
+        width:'127px'; height:'35px'; 
+    }
+    .widthclass7{
+        width:'92px'; height:'43px';
+    }
+    .widthclass8{
+        width:'138px'; height:'32px';
+    }
+    .widthclass9{
+        width:'103px'; height:'24px'; 
+    }
+    .widthclass10{
+        width:'59px'; height:'23px';
+    }
+     */
+    .rb{
+        border-right: 1px solid #999999;
+
+    }
+    .bt{
+        border-bottom: 1px solid #999999;
+            
+        }
+        .ntb{
+            border-top: 1px solid #999999  !important;
+           
+        }
+}
+@media screen and (max-width:575px){
+    .column{
+        border-right: 1px solid #999999;
+    }
+    .ntb{
+        border-top: 1px solid #999999  !important;
+       
+    }
+    .wixb{
+        border-bottom: 1px solid #999999  !important;
+
+    }
+}
    
