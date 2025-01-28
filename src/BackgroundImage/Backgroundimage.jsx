@@ -8,7 +8,7 @@ const Backgroundimage = () => {
     <>
     <div className="container-fluid bg-white text-white w-100   m-0 p-0 mountainbg">
       <div className="row g-0  backgroundimg ">
-        <div className="col-md-4 col-lg-5 col-xxl-8 d-none d-md-flex  backgrouimg d-flex align-items-center justify">
+        <div className="col-md-4 col-lg-5 col-xxl-8 d-none d-md-flex  backgrouimg d-flex align-items-center ">
           <img className='backgrouimg' src="Group-2-1 (2).png" alt="" />
         </div>
         <div className="col-md-8 col-lg-7 col-xxl-4 bgnav">
@@ -22,11 +22,11 @@ const Backgroundimage = () => {
             <li className='backroundli px-1'> <img src="arrow.png" alt="" /></li>
           </ul>
         </div>
-        <div className="col-12">
-          <h3 className='digitalheading'>
-            We are the Digital
+        <div className="col-12 h-75 d-flex flex-column justify-content-center">
+          <h3 className='ps-5 digitalheading'>
+            WE'RE THE DIGITAL
           </h3>
-          <h1 className='Artists'>
+          <h1 className=' ps-5  Artists'>
             ARTISTS
           </h1>
         </div>

@@ -4,9 +4,9 @@ const Contactfooter = () => {
   return (
     <>
       <div className="container-fluid  contactfooterposition">
-        <div className=" row g-0 d-flex justify-content-between ">
-          <div className="col-6 footlength"></div>
-          <div className="col-md-6 contactfooterimage"></div>
+        <div className=" row g-0  d-flex justify-content-between ">
+          <div className="col-6   footlength"></div>
+          <div className="col-md-6  contactfooterimage"></div>
         </div>
     
 
@@ -35,7 +35,7 @@ const Contactfooter = () => {
               <img src="facebook.png" className="contactimage" alt="" />
             </div>
             </div>
-            <div className="col-md-12 footerrightsborder  d-flex justify-content-between align-items-center">
+            <div className="col-12 col-md-12 footerrightsborder  d-flex justify-content-between align-items-center">
              <div className="col-10 m-auto d-flex justify-content-between align-items-center">
               <div className="col-md-6">
                 <p className="rightspara">
@@ -43,7 +43,7 @@ const Contactfooter = () => {
                   Developed By: Pixarsart
                 </p>
               </div>
-              <div className="col-12 col-md-6 formclassfooter d-flex justify-content-center align-items-center my-3">
+              <div className="col-12 col-md-6 formclassfooter d-flex justify-content-between align-items-center my-3">
                 <input type="text" className="form-control-md formfooter " placeholder="Enter your email" />{" "}
                 <span>
                   <img src="formarrow.png" alt="" />
@@ -68,7 +68,7 @@ const Contactfooter = () => {
               </div>
             </div>
             <div>
-              <h3 className="contactfooterheading pt-4">02:00 PM - 11:00 PM</h3>
+              <h3 className="contactfooterheading lineheight pt-4">02:00 PM - 11:00 PM</h3>
               <p className="contactfooterpara text-center">Monday - Friday</p>
             </div>
           </div>

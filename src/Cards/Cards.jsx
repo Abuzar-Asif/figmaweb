@@ -8,7 +8,7 @@ const Cards = () => {
       
         <div className="container pt-3 d-flex flex-column justify-content-center align-items-center m-auto row">
               <div className="col-md-12 cardHeading  d-flex flex-column justify-content-around align-items-center m-auto">
-              <h3 className='cardsheading'>
+              <h3 className='cardsheading pt-5'>
                Our Featured Blogs
                </h3>
                <p className='cardspara text-center'>

@@ -4,7 +4,7 @@ const Step = () => {
   return (
     <>
      <div className="container-fluid py-5">
-        <div className="container row stepsheadingflex m-auto d-flex flex-wrap-reverse justify-content-end">
+        <div className="container row stepsheadingflex m-auto d-flex flex-wrap-reverse justify-content-end py-5">
                 <div className='col-12 calflex col-sm-9 d-flex justify-content-end'>
                     <h3 className='stepsheading'>
                                      We are geared towards <br /> versatility and offering <br /> you efficiency and best <br /> quality services at every 
