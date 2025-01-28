@@ -6,13 +6,13 @@ const ChooseUs = () => {
     <>
     <div className="container-fluid">
      <div className="container m-auto">
-        <div className="row">
+        <div className="row g-0">
             <div className="py-5 col-md-12 d-flex justify-content-center align-items-center">
                 <h3 className='chooseheading'>
                     Why Choose Us
                 </h3>
             </div>
-            <div className="row pb-5">
+            <div className="row g-0 pb-5">
                 <div className="col-md-3 choosediv3">
                 <ul>
                         <li>

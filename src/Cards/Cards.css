@@ -47,9 +47,31 @@
         padding: 1.5rem;
      
     }
+    @media only screen and (min-width: 1400px) {
+        .cardbodypara{
+    
+            font-family: 'Kanit';
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 21px;
+       color: #999999;
+
+            }
+            .cardbodyheading{
+
+                font-family: 'Kanit';
+                font-size: 32px;
+                font-weight: 500;
+                line-height: 43px;
+                border-bottom: 1px solid #807F7F;
+            
+                }
+    }
+    
+
     @media only screen and (max-width: 992px) {
         .cardsheading{
             line-height: 48px;
         }
     }
-    
+   

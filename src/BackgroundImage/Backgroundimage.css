@@ -1,8 +1,15 @@
 .digitalheading{
-    font-weight: 600;
-    font-size: 4.8rem;
+    font-family: "New Tusker", sans-serif;
+
+    font-size: clamp(30px, 7.5vw, 75px) !important;
+    
+    Font-weight: 500;
+    
+    Line-height: 215.962px;
+    
+    color: rgb(255, 255, 255);
 }
-.Artists{
+/* .Artists{
     font-family: "Tusker", Sans-serif !important;
     font-size: clamp(30px, 7.5vw, 75px) !important;
     text-transform: uppercase;
@@ -20,7 +27,7 @@
     transform: translate(0px, 0px);
     margin: 0;
     display: inline-block;
-    /* font-size: clamp(40em, 2.5vw, 40em); */
+   
     font-size: clamp(90px, 14.06vw, 270px) !important;
     color: #ffffff;
     cursor: pointer;
@@ -30,8 +37,12 @@
     letter-spacing: 5px;
     --fontHeight: 100;
     font-variation-settings: "hght" var(--fontHeight), "wdth" 1;
+} */
+.Artists{
+    font-family:"New Tusker";
+    font-weight: 500;
+    font-size: clamp(90px, 14.06vw, 270px) !important;
 }
-
 
 .mountainbg{
     background-color: black !important;
@@ -59,7 +70,11 @@ background-color: transparent !important;
 }
 .backgroundul{
     list-style: none;
-  font-size: 14px;
+    font-family: 'Kanit';
+font-size: 15px;
+font-weight: 600;
+line-height: 26px;
+
   height: 5rem;
   /* margin-left: 8rem; */
 }

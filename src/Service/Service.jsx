@@ -26,7 +26,7 @@ const Service = () => {
           </div>
         </div>
 
-        <div className="container row m-auto">
+        <div className="container g-0 row m-auto py-5">
           <div className="col-md-4 serviceimg ">
             <img className="serviceimage h-100" src="Creative Design.png" alt="" />
           </div>
@@ -34,42 +34,42 @@ const Service = () => {
             <div className=" d-flex row justify-content-between align-items-center servicecontent">
               <h4 className="px-3 col-1  Serviceheading">01</h4>
               <h4 className="px-3 col-4 Serviceheading">Awesome <br /> Creative Design</h4>
-              <p className="px-3 col-5 servicepara">Creative Designs are basic requirement  of all businesses. PixarsArt is the right  choice for you to initiate this process.</p>
-              <p className="px-3 col-2 serviepara">
-                <img src="arrow.png" alt="" />
+              <p className="px-3 col-4 servicepara">Creative Designs are basic requirement  of all businesses. PixarsArt is the right  choice for you to initiate this process.</p>
+              <p className="px-3 col-3 serviepara">
+                <img className="imagearrowsize float-left"  src="arrow.png" alt="" />
               </p>
             </div>
             <div className=" d-flex justify-content-between align-items-center servicecontent">
               <h4 className="px-3 col-1  Serviceheading">02</h4>
               <h4 className="px-3 col-4 Serviceheading">Website Development</h4>
-              <p className="px-3  col-6 servicepara">Creative Designs are basic requirement of all businesses. PixarsArt is the right choice for you to initiate this process.</p>
-              <p className="px-3  col-1 serviepara">
-                <img src="arrow.png" alt="" />
+              <p className="px-3  col-4 servicepara">Creative Designs are basic requirement of all businesses. PixarsArt is the right choice for you to initiate this process.</p>
+              <p className="px-3  col-3 serviepara">
+                <img  className="imagearrowsize" src="arrow.png" alt="" />
               </p>
             </div>
             <div className=" d-flex justify-content-between align-items-center servicecontent ">
               <h4 className="px-3  col-1 Serviceheading">03</h4>
               <h4 className="px-3  col-4 Serviceheading">E-commerce Development</h4>
-              <p className="px-3  col-6 servicepara">Creative Designs are basic requirement of all businesses. PixarsArt is the right choice for you to initiate this process.</p>
-              <p className="px-3  col-1 serviepara">
-                <img src="arrow.png" alt="" />
+              <p className="px-3  col-4 servicepara">Creative Designs are basic requirement of all businesses. PixarsArt is the right choice for you to initiate this process.</p>
+              <p className="px-3  col-3 serviepara">
+                <img  className="imagearrowsize" src="arrow.png" alt="" />
               </p>
             </div>
             <div className=" d-flex justify-content-between align-items-center  servicecontent">
               <h4 className=" px-3  col-1 Serviceheading">04</h4>
               <h4 className=" px-3  col-4 Serviceheading">Application Development</h4>
-              <p className="px-3  col-6 servicepara">Creative Designs are basic requirement of all businesses. PixarsArt is the right choice for you to initiate this process.</p>
-              <p className="px-3  col-1 serviepara">
-                <img src="arrow.png" alt="" />
+              <p className="px-3  col-4 servicepara">Creative Designs are basic requirement of all businesses. PixarsArt is the right choice for you to initiate this process.</p>
+              <p className="px-3  col-3 serviepara">
+                <img className="imagearrowsize"  src="arrow.png" alt="" />
               </p>
             </div>
 
             <div className=" d-flex last justify-content-between align-items-center servicecontent">
               <h4 className="px-3  col-1 Serviceheading">05</h4>
               <h4 className="px-3  col-4 Serviceheading">Cloud Web & <br /> Data Sciences</h4>
-              <p className="px-3 col-6  servicepara">Creative Designs are basic requirement of all businesses. PixarsArt is the right choice for you to initiate this process.</p>
-              <p className="px-3 col-1  serviepara">
-                <img src="arrow.png" alt="" />
+              <p className="px-3 col-4  servicepara">Creative Designs are basic requirement of all businesses. PixarsArt is the right choice for you to initiate this process.</p>
+              <p className="px-3 col-3  serviepara">
+                <img  className="imagearrowsize" src="arrow.png" alt="" />
               </p>
             </div>
           </div>

@@ -15,7 +15,7 @@
     {
         border-left: 1px solid #999999;
         height: 8rem;
-        margin-left: 5rem;
+        margin-left: 7rem;
     }
     .firstpara
     {
@@ -55,13 +55,13 @@
     .paragraph{
         height: 18rem;
         border-left:1px solid #999999;
-        margin-left: 5rem;
+        margin-left: 7rem;
 
     }
     .onepara{
         height: 10rem;
     
-    font-family: 'Kanit';
+    font-family: "Kanit";
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;

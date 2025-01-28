@@ -15,7 +15,7 @@ const Offer = () => {
                 We are geared towards <br /> versatility and offering you <br />efficiency and the best <br />quality services at every step.
                 </p>
             </div>
-            <div className="butto mb-5 buttomargin text-white">
+            <div className="butto mb-5 buttomargin me-2 text-white">
                 <button className='btn '>
                 Contact us  <span><img src="arrow.png" alt="" /></span>
                 </button> 

@@ -7,7 +7,7 @@ const GetaQuote = () => {
         <div className="container m-auto">
             <div className="row g-0 d-flex justify-content-around align-items-center flex-wrap">
                 <div className="col-md-6">
-                    <h3 className='quoteheading'>
+                    <h3 className='quoteheading py-5'>
                         Get A Quote 
                     </h3>
                 </div>

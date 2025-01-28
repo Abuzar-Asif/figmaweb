@@ -3,7 +3,7 @@ import '../Footer/Footer.css'
 const Footer = () => {
   return (
     <>
-    <div className="container-fluid py-5">
+    <div className="container-fluid pb-5">
         <div className="container m-auto containerdiv pb-3 ">
             <div className="row">
                 <div className="col">
@@ -20,7 +20,7 @@ const Footer = () => {
             <div className="row ">
                 <div className="col-md-2">
                    
-                    <p  className='footerpara px-3'>
+                    <p  className='footerpara '>
                           Alabama
                    <br /> Alaska
                    <br /> Arizona

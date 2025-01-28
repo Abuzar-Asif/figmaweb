@@ -206,3 +206,8 @@ line-height: 21px;
         display: none;
     }
 }
+@media only screen and (min-width: 1400px) {
+    .contactfooterposition{
+        height: 40rem;
+    }
+}

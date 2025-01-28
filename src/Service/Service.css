@@ -1,3 +1,9 @@
+.imagearrowsize{
+    width: 24px;
+height: 24.64px;
+float: right;
+
+}
 .servicepara{
   
 font-family: 'Kanit';
@@ -8,6 +14,13 @@ line-height: 19px;
 
 
 
+}
+.spsize
+{
+    font-family: 'Kanit';
+font-size: 18px;
+font-weight: 300;
+line-height: 19px;
 }
 .serviceheading{
   
@@ -109,3 +122,34 @@ height: 56rem;
     font-size: 1rem;
     line-height: 2rem;
 }}
+@media only screen and (min-width: 1400px) {
+    .Serviceheading{
+  
+        font-family: Kanit;
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 43px;
+
+        }
+        .servicepara{
+  
+            font-family: 'Kanit';
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 19px;
+            
+color:  #999999;
+            
+            
+            
+            }
+            .spsize
+{
+    font-family: 'Kanit';
+font-size: 18px;
+font-weight: 300;
+line-height: 19px;
+color:  #999999;
+;
+}
+}

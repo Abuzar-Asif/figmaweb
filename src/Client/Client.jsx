@@ -4,8 +4,8 @@ const Client = () => {
   return (
     <>
     
-    <div className='g-0 row ClientFluid d-flex justify-content-center flex-wrap align-items-center'>
-       <div className='col-12 col-sm-6  d-flex justify-content-evenly flex-wrap align-items-center '>
+    <div className='g-0 py-5 row ClientFluid d-flex justify-content-center flex-wrap align-items-center'>
+       <div className='col-12 col-sm-5  d-flex justify-content-evenly flex-wrap align-items-center '>
         <h3 className='clientheading '>
         
         Words from <br /> our trusted <br /> clients
