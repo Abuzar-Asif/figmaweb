@@ -1,10 +1,10 @@
 .Brandpara{
     
 font-family: 'Kanit';
-font-size: 18px;
+font-size: clamp(0.75rem, 0.675rem + 0.375vw, 1.125rem);
 font-weight: 300;
 /* line-height: 19px; */
-
+line-height: 1.2;
 
 
 }
@@ -14,9 +14,9 @@ font-weight: 300;
 .brandheading{
 
 font-family: 'Kanit';
-font-size: 64px;
+font-size: clamp(1.25rem, 0.7rem + 2.75vw, 4rem);
 font-weight: 500;
-line-height: 59px;
+line-height: 1.1;
 
 }
 .brandwith{
@@ -31,10 +31,10 @@ line-height: 59px;
     align-items: center;
 }
 .brandimage{
-    /* width: 14.28%;
-    height: 12rem; */
-    width: 120px;
-    height: 120px;
+    width: clamp(130px, 111.5652px + 5.7609vw, 183px);
+    height: clamp(130px, 111.5652px + 5.7609vw, 183px);
+    /* width: 120px;
+    height: 120px; */
     border-top: 1px solid #807F7F;
     border-left: 1px solid #807F7F;
     /* border-left: 1px solid #807F7F; */
@@ -60,16 +60,20 @@ line-height: 59px;
     .brandmargin{
         margin: 0 !important;
     }
-    .brandimage{
+    /* .brandimage{
         width: 183px;
         height: 183px;
-    }
+    } */
 }
 @media only screen and (max-width: 1399px) {
     .bb{
         border-bottom: 1px solid #807F7F;
     
         }
+        /* .brandimage{
+                width: 120px;
+    height: 120px;
+        } */
 }
 
 @media only screen and (max-width: 1200px) {
@@ -85,22 +89,33 @@ line-height: 59px;
         border-right: 1px solid #807F7F;
 
         }
+        /* .brandimage{
+            width: 110px;
+            height: 110px;
+        } */
 }
 @media only screen and (max-width: 992px) {
     .br{
         border-right: 1px solid #807F7F;
 
     }
-    .brandimage{
+    /* .brandimage{
+        width: 80px;
+        height: 80px;
+    } */
+    /* .brandimage{
         width:100%;
-    }
+    } */
     .brandheading{
-    font-size: 20px;
+    /* font-size: 20px; */
     text-align: center;
-    line-height: 20px;
+    /* line-height: 20px; */
     }
-    .brandpara{
-        font-size: 24px;
+    .Brandpara{
+    
         text-align: center;
     }
+    /* .brandmargin{
+        margin: 0 !important;
+    } */
 }

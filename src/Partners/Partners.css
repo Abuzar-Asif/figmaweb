@@ -18,9 +18,9 @@ border-left: 1px solid #999999;
   
 
 font-family: 'Kanit';
-font-size: 32px;
+font-size: clamp(1.5rem, 1.4rem + 0.5vw, 2rem);
 font-weight: 500;
-line-height: 43px;
+line-height: 1.1;
 
 
 
@@ -52,15 +52,6 @@ line-height: 43px;
         height: 183px;
         border-top: 1px solid #999999;
 border-left: 1px solid #999999;
-    }
-    .partnerss{
-    
-    font-family: 'Kanit';
-    font-size: 32px;
-    font-weight: 500;
-    line-height: 43px;
-    
-    
     }
     }
 @media screen and (min-width:1200px) and (max-width:1399px) {

@@ -1,12 +1,22 @@
 .servicecolor{
     color: white !important;;
 }
+.spsize{
+    /* font-size: clamp(0.625rem, 0.575rem + 0.25vw, 0.875rem); */
+    font-size: clamp(0.5rem, 0.425rem + 0.375vw, 0.875rem);
+    line-height: 1.2;
+    font-family: 'Kanit';
+    font-weight: 300;
+/* text-align: center; */
+
+}
 .servicepara{
   
 font-family: 'Kanit';
-font-size: 18px;
+/* font-size: clamp(0.75rem, 0.725rem + 0.125vw, 0.875rem); */
+font-size: clamp(0.5rem, 0.425rem + 0.375vw, 0.875rem);
 font-weight: 300;
-line-height: 19px;
+line-height: 1.2;
 color:  #999999;
 ;
 
@@ -22,7 +32,7 @@ font-family:' Kanit';
 /* font-size: clamp(1.25rem, 1.1rem + 0.75vw, 2rem); */
 font-size: clamp(1rem, 0.8rem + 1vw, 2rem);
 font-weight: 300;
-line-height: 59px;
+line-height: 1.1;
 color:  #999999;
 
 
@@ -31,11 +41,9 @@ color:  #999999;
    
   
     font-family: 'Kanit';
-    font-size: 64px;
+    font-size: clamp(2rem, 1.6rem + 2vw, 4rem);
     font-weight: 500;
-    line-height: 59px;
- 
-
+    line-height: 1.1;
 }
 .servicecontent
 {
@@ -70,22 +78,23 @@ height: 56rem;
         /* padding-top: 2rem !important;
         padding-bottom: 2rem !important; */
     }
-    .servicepara{
+    /* .servicepara{
         font-size: 14px;
-    }
+    } */
  .Serviceheading{
           
-        line-height: 43px;
+    line-height: 1.1;
+
         
         
 
                 } */
                 .spsize{
-          
-                    font-family: 'Kanit';
-                    font-size: 18px !important;
-                    font-weight: 300;
-                    line-height: 19px;
+          /* text-align: start !important; */
+                    /* font-family: 'Kanit'; */
+                    /* font-size: 18px !important; */
+                    /* font-weight: 300; */
+                    /* line-height: 19px; */
                     margin-bottom: 1rem;
                     
                             }
@@ -95,29 +104,30 @@ height: 56rem;
                 }
 }
 @media only screen and (max-width: 1400px) {
-    .servicepara{
+    /* .servicepara{
         font-size: 14px !important;
-    }
+    } */
     .Serviceheading{
-        line-height: 30px !important;
+        /* line-height: 1.1; */
+
     }
     .arrowsize{
-        width: 25px;
-        height: 25px;
+        width: 20px;
+        height: 20px;
     }
     .servicecontent{
         height: 9rem !important;
     }
     .headingpara{
    
-        font-family: 'Kanit';
+        /* font-family: 'Kanit';
         font-size: 32px;
         font-weight: 500;
-        line-height: 59px;
+        line-height: 59px; */
         
         
         }
-        .spsize{
+        /* .spsize{
           
 font-family: 'Kanit';
 font-size: 18px;
@@ -125,19 +135,19 @@ font-weight: 300;
 line-height: 19px;
 
 
-        }
+        } */
 
 }
 @media only screen and (max-width: 992px) {
     
     .Serviceheading{
-        line-height: 30px !important;
+        /* line-height: 30px !important; */
     }
     .arrowsize{
-        width: 25px;
-        height: 25px;
+        width: 12px;
+        height: 12px;
     }
-    .headingpara{
+    /* .headingpara{
    
         font-family: 'Kanit';
         font-size: 24px;
@@ -145,7 +155,7 @@ line-height: 19px;
         line-height: 20px;
         
         
-        }
+        } */
    
    .serviceimage{
     display: none;
@@ -179,15 +189,15 @@ line-height: 19px;
     line-height: 20px;
    } */
    .servicepara{
-    font-size: 10px !important;
-    line-height: 20px;
+    /* font-size: 10px !important;
+    line-height: 20px; */
     /* padding-top: 2rem;
     padding-bottom: 2rem; */
    }
-   .spsize{
+   /* .spsize{
     font-size: 14px;
     line-height: 2rem;
-}
+} */
 }
 @media only screen and (max-width: 480px) {
     .arrowsize{
@@ -199,8 +209,8 @@ line-height: 19px;
     padding-left: 2rem !important;
     }
     .servicepara{
-        font-size: 8px !important;
-        line-height: 15px;
+        /* font-size: 8px !important;
+        line-height: 15px; */
         /* padding-top: 2rem;
         padding-bottom: 2rem; */
        }
@@ -212,7 +222,7 @@ line-height: 19px;
         height: 8rem !important;
     }
 .Serviceheading{
-    line-height: 30px;
+    /* line-height: 30px; */
 padding-left: .5rem !important;
 }
 }

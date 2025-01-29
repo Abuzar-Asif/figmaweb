@@ -4,14 +4,14 @@ const Step = () => {
   return (
     <>
      <div className="container-fluid py-5">
-        <div className="container row stepsheadingflex m-auto d-flex flex-wrap-reverse justify-content-end">
-                <div className='col-12 calflex col-sm-9 d-flex justify-content-center justify-content-end-lg'>
+        <div className="container row g-0 stepsheadingflex m-auto d-flex flex-wrap-reverse justify-content-end">
+                <div className='col-12 calflex start col-sm-8 col-md-9 d-flex justify-content-center justify-content-end-lg'>
                     <h3 className='stepsheading'>
                                      We are geared towards <br /> versatility and offering <br /> you efficiency and best <br /> quality services at every 
                           <br />  step.
                      </h3>
                 </div>
-                <div className='col-12 col-sm-3  d-flex justify-content-end'>
+                <div className='col-12 col-sm-4 col-md-3  d-flex justify-content-end'>
                         <img className='rectangle1image img-fluid' src="Rectangle1.png" alt="" />
                 </div>
                 {/* .............. */}

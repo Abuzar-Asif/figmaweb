@@ -124,54 +124,54 @@ const Footer = () => {
           
             <div className="container m-auto pt-3 g-0 row">
                 <div className="col-lg-12 col-6-md  col-sm-4">
-                    <p className='footermainheading'>
+                    <p className='footermainheading text-center text-sm-start'>
                     Our Offices Locations
                     </p>
                 </div>
             </div>
-            <div className="container g-0 m-auto footerborder py-3 row">
-                <div className="col-lg-4  col-sm-12">
-                    <p className='footerheading py-3'>United Kingdom</p>
+            <div className="container px-5 px-sm-0  g-0 m-auto footerborder py-3 row">
+                <div className=" col-lg-4  col-sm-12">
+                    <p className='footerheading country py-3'>United Kingdom</p>
                     <div className='d-flex'>
                     <p className='footerheading'>Location:  
-                    <span className='footerpara lh-1'>Flat62A, 4 Mann Island, Liverpool <br />
+                    <span className='footerpara  ms-3 lh-1'>Flat62A, 4 Mann Island, Liverpool <br />
                      Merseyside, L3 1BP</span>
                     </p>
                     </div>
                    <div className='d-flex'>
                    <p className='footerheading'>Phone:  
-                    <span className='footerpara px-3'>(972) 464 - 2823</span></p>
+                    <span className='footerpara  ms-3 px-3'>(972) 464 - 2823</span></p>
                    </div>
                   
                    
                 </div>
                 <div className="col-lg-4 col-sm-12">
-                    <p className='footerheading py-3'>United States</p>
+                    <p className='footerheading country py-3'>United States</p>
                     <div className='d-flex'>
 
                     <p className='footerheading '>Location: 
-                    <span className='footerpara px-3'>  15126 Shellwood LN, Frisco, Texas,</span></p>
+                    <span className='footerpara  ms-3 px-3'>  15126 Shellwood LN, Frisco, Texas,</span></p>
                     </div>
                     <div className='d-flex'>
                    <p className='footerheading'>Email:  
-                    <span className='footerpara px-3'>info@pixarsart.com</span></p>
+                    <span className='footerpara px-3  ms-3'>info@pixarsart.com</span></p>
                    </div>
                    <div className='d-flex'>
                    <p className='footerheading'>Phone: 
-                    <span className='footerpara px-3'>(972) 464 - 2823</span> </p>
+                    <span className='footerpara px-3  ms-3'>(972) 464 - 2823</span> </p>
                    </div>
                 </div>
                 <div className="col-lg-4 col-sm-12">
-                    <p className='footerheading py-3'>Pakistan</p>
+                    <p className='footerheading py-3 country'>Pakistan</p>
                     <div className='d-flex'>
                     <p className='footerheading'>Location:  
-                    <span className='footerpara px-3 '>Location:  38D, Nasheman-e-Iqbal, Phase2, Lahore-54000
+                    <span className='footerpara  ms-3 px-3 '>Location:  38D, Nasheman-e-Iqbal, Phase2, Lahore-54000
                     </span></p>
                     </div>
                    
                    <div className='d-flex'>
                    <p className='footerheading'>Phone:  
-                    <span className='footerpara px-3'>(972) 464 - 2823</span></p>
+                    <span className='footerpara ms-3  px-3'>(972) 464 - 2823</span></p>
                    </div>
                 </div>
             </div>

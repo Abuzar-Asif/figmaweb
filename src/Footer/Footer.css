@@ -1,27 +1,32 @@
 .footerpara{
     font-family: 'Akkurat';
-font-size: 16px;
+    font-size: clamp(0.75rem, 0.7rem + 0.25vw, 1rem);
 font-weight: 500;
-line-height: 30px;
+line-height: 2;
 color: #ADADAD;
 padding: 0 !important;
+/* margin-left: 1rem; */
 
+}
+.country{
+    font-family: 'Akkurat' !important;
+    font-size: clamp(0.875rem, 0.825rem + 0.25vw, 1.125rem) !important;
+    line-height: 1.1;
 }
 .footerheading{
     font-family: 'Akkurat';
-font-size: 18px;
+    font-size: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
 font-weight: 500;
-line-height: 24px;
+line-height: 1.1;
 /* padding: 0 !important; */
 
 
 }
 .footermainheading{
     font-family: 'Akkurat';
-font-size: 22px;
+    font-size: clamp(1.125rem, 1.075rem + 0.25vw, 1.375rem);
 font-weight: 500;
-line-height: 24px;
-
+line-height: 1.1;
 }
 .containerdiv{
     border-bottom: 1px solid #807F7F;
@@ -33,6 +38,6 @@ line-height: 24px;
 }
 @media only screen and (max-width: 768px) {
     .containerdiv{
-        text-align: center;
+        /* text-align: center; */
     }
 }

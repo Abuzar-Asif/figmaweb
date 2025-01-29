@@ -12,7 +12,7 @@ const Service = () => {
             </h3>
           </div>
           <div className="col-md-5">
-            <p className=" spsize text-center text-start-md">You have come to the Right Place PixarsArt is a Unified Platform for all things of Web & Mobile</p>
+            <p className=" spsize text-center text-md-start">You have come to the Right Place PixarsArt is a Unified Platform for all things of Web & Mobile</p>
           </div>
           <div className="col-md-2 d-flex flex-column justify-content-center align-items-center py-2 servicebutpad">
             <div className="butto centerbutto  text-white">

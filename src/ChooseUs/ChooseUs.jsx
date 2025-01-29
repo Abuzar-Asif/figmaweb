@@ -12,9 +12,9 @@ const ChooseUs = () => {
                     Why Choose Us
                 </h4>
             </div>
-            <div className="row pb-5">
+            <div className="row pb-sm-5">
                 <div className="col-md-3 choosediv3">
-                <ul>
+                <ul className='centerul'>
                         <li>
                                 <h4  className='chooseh4'> Quality</h4>
                         </li>
@@ -26,7 +26,7 @@ const ChooseUs = () => {
                     </ul>
                 </div>
                 <div className="col-md-3 choosediv3">
-                <ul>
+                <ul className='centerul'>
                         <li>
                             <h4 className='chooseh4'> Reliabilty</h4>
                         </li>
@@ -38,7 +38,7 @@ const ChooseUs = () => {
                     </ul>
                 </div>
                 <div className="col-md-3 choosediv3">
-                    <ul>
+                    <ul className='centerul'>
                         <li>
                             <h4 className='chooseh4'> Flexibilty</h4>
                         </li>
@@ -50,7 +50,7 @@ const ChooseUs = () => {
                     </ul>
                 </div>
                 <div className="col-md-3 choosediv3 chooseborder">
-                <ul >
+                <ul className='centerul' >
                         <li >
                             <h4 className='chooseh4'> Competence</h4>
                         </li>

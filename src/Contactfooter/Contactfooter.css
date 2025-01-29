@@ -11,7 +11,7 @@
 }
 .contactfooterheading{
     font-family: 'Kanit';
-font-size: 20px;
+font-size: clamp(0.75rem, 0.65rem + 0.5vw, 1.25rem);
 font-weight: 500;
 line-height: 32px;
 /* padding: 1rem; */
@@ -21,18 +21,18 @@ line-height: 32px;
 .contactfooterpara2{
 
     font-family: 'Kanit';
-    font-size: 14px;
+    font-size: clamp(0.625rem, 0.525rem + 0.5vw, 1.125rem);
     font-weight: 300;
-    line-height: 19px;
+    line-height: 1.2;
     color: #ADADAD;
     
     }
 .contactfooterpara{
 
 font-family: 'Kanit';
-font-size: 10px;
+font-size: clamp(0.5625rem, 0.5rem + 0.3125vw, 0.875rem);
 font-weight: 300;
-line-height: 19px;
+line-height: 1.2;
 color: #ADADAD;
 
 }
@@ -50,9 +50,9 @@ opacity: 0.8;
 .rightspara{
   
 font-family: 'Kanit';
-font-size: 12px;
+font-size: clamp(0.75rem, 0.725rem + 0.125vw, 0.875rem);
 font-weight: 400;
-line-height: 21px;
+line-height: 1.2;
 color: #ADADAD;
 
 
@@ -106,26 +106,26 @@ color: #ADADAD;
     }
     .contactfooterpara2{
 
-        font-family: 'Kanit';
+        /* font-family: 'Kanit';
         font-size: 14px;
         font-weight: 300;
         line-height: 19px;
-        
+         */
         
         }
     .contactfooterpara{
     
-    font-family: 'Kanit';
+    /* font-family: 'Kanit';
     font-size: 10px;
     font-weight: 300;
-    line-height: 19px;
+    line-height: 19px; */
     
     
     }
 }
 @media only screen and (max-width: 992px) {
     .rightspara{
-        font-size: 8px;
+        /* font-size: 8px; */
     }
     .formclassfooter{
         width: 14rem !important;
@@ -134,24 +134,24 @@ color: #ADADAD;
         width: 10rem !important;
     }
     .contactfooterheading{
-        font-family: 'Kanit';
-    font-size: 14px !important;
+        /* font-family: 'Kanit';
+    font-size: 14px !important; */
    
     
     
     }
     .contactfooterpara{
     
-        font-family: 'Kanit';
-        font-size: 8px !important;
+        /* font-family: 'Kanit';
+        font-size: 8px !important; */
       
         
         
         }
     .contactfooterpara2{
-    
+/*     
         font-family: 'Kanit';
-        font-size: 8px !important;
+        font-size: 8px !important; */
       
         
         

@@ -1,15 +1,12 @@
 .hearheading{
    
 font-family: 'Kanit';
-font-size: 64px;
+font-size: clamp(1.5rem, 1rem + 2.5vw, 4rem);
 font-weight: 500;
-line-height: 59px;
+line-height: 1.1;
 text-align: center;
 
 }
 @media only screen and (max-width: 992px) {
-    .hearheading{
-        font-size: 2rem;
-    line-height: 30px;
-    }
+
 }

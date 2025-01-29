@@ -1,6 +1,6 @@
 .Galleryimage1{
   background-image: url('../../public/World Economic Forum.png');
-background-position: center;
+/* background-position: center; */
 background-repeat: no-repeat;
 background-size: cover;
 height: 50rem;
@@ -11,7 +11,7 @@ height: 50rem;
 }
 .Galleryimage2{
   background-image: url('../../public/Hyprov (1).png');
-background-position: center;
+/* background-position: center; */
 background-repeat: no-repeat;
 background-size: cover;
 height: 50rem;
@@ -19,7 +19,7 @@ height: 50rem;
 }
 .Galleryimage3{
   background-image: url('../../public/Margot Community 1.png');
-background-position: center;
+/* background-position: center; */
 background-repeat: no-repeat;
 background-size: cover;
 height: 50rem;
@@ -27,7 +27,7 @@ height: 50rem;
 }
 .Galleryimage4{
   background-image: url('../../public/Pixie Cup.png');
-background-position: center;
+/* background-position: center; */
 background-repeat: no-repeat;
 background-size: cover;
 height: 50rem;
@@ -35,7 +35,7 @@ height: 50rem;
 }
 .Galleryimage5{
   background-image: url('../../public/Legends of the Galaxy.png');
-background-position: center;
+/* background-position: center; */
 background-repeat: no-repeat;
 background-size: cover;
 height: 50rem;
@@ -48,4 +48,46 @@ background-repeat: no-repeat;
 background-size: cover;
 height: 50rem;
 
+}
+@media screen and (max-width: 768px) {
+  .Galleryimage1{
+
+  height: 30rem;
+  /* width: 100%; */
+ /* background-position: none !important; */
+  
+  
+  
+  }
+  .Galleryimage2{
+
+ 
+  height: 30rem;
+ /* background-position: none !important; */
+  
+  }
+  .Galleryimage3{
+  
+  height: 30rem;
+ /* background-position: none !important; */
+  
+  }
+  .Galleryimage4{
+ 
+  height: 30rem;
+ /* background-position: none !important; */
+  
+  }
+  .Galleryimage5{
+
+  height: 30rem;
+ /* background-position: none !important; */
+  
+  }
+  .Galleryimage6{
+ /* background-position: none !important; */
+  height: 30rem;
+  
+  }
+  
 }

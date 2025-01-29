@@ -2,17 +2,20 @@
         text-align: center;
 
     font-family: 'Kanit';
-    font-size: 64px;
+    font-size: clamp(2rem, 1.6rem + 2vw, 4rem);
     font-weight: 500;
-    line-height: 30px;
+    line-height: 1.1;
 
+    }
+    .cardbody{
+        height: 5rem !important;
     }
     .cardspara{
     
     font-family: 'Kanit';
-    font-size: 14px;
+    font-size: clamp(0.625rem, 0.575rem + 0.25vw, 0.875rem);
     font-weight: 400;
-    line-height: 10px;
+    line-height: 1.2;
     color:  #999999;
 
 
@@ -21,18 +24,18 @@
     .cardbodypara{
     
     font-family: 'Kanit';
-    font-size: 10px;
+    font-size: clamp(0.5rem, 0.425rem + 0.375vw, 0.875rem);
     font-weight: 400;
-    line-height: 21px;
+    line-height: 1.2;
     color:  #999999;
 
     }
     .cardbodyheading{
 
     font-family: 'Kanit';
-    font-size: 20px;
+    font-size: clamp(0.625rem, 0.35rem + 1.375vw, 2rem);
     font-weight: 500;
-    line-height: 43px;
+    line-height: 1.1;
     border-bottom: 1px solid #807F7F;
 
     }
@@ -52,35 +55,41 @@
     }
     @media only screen and (min-width: 1400px) {
         .cardspara{
-font-family: 'Kanit';
+/* font-family: 'Kanit';
 font-size: 14px;
 font-weight: 400;
-line-height: 21px;
+line-height: 21px; */
 color:  #999999;
 
 
 }
 .cardbodypara{
-font-family: "Kanit";
+/* font-family: "Kanit";
 font-size: 14px;
 font-weight: 400;
-line-height: 21px;
+line-height: 21px; */
 color:  #999999;
 
 
 }
-.cardbodyheading{
+/* .cardbodyheading{
 font-family: "Kanit";
 font-size: 32px;
 font-weight: 500;
 line-height: 43px;
 
 
-}
+} */
     }
     @media only screen and (max-width: 992px) {
-        .cardsheading{
-            line-height: 48px;
+        .cardbodyheading{
         }
+        /* .cbp{
+            padding-bottom: 2.7rem !important;
+        } */
+
+        /* .cardsheading{
+            line-height: 48px;
+        } */
     }
     

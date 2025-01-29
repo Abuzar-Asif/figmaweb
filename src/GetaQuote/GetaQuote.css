@@ -1,9 +1,9 @@
 .quoteheading{
 
 font-family: 'Kanit';
-font-size: 6rem;
+font-size: clamp(2rem, 1.2rem + 4vw, 6rem);
 font-weight: 500;
-line-height: 144px;
+line-height: 1.1;
 
 
 }
@@ -14,8 +14,8 @@ line-height: 144px;
 }
 @media only screen and (max-width: 992px) {
     .quoteheading{
-        font-size: 2rem;
-        line-height: 30px;
+        /* font-size: 2rem;
+        line-height: 30px; */
         text-align: center;
     }
 }
