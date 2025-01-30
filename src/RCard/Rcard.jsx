@@ -5,7 +5,7 @@ const Rcard = () => {
     <>
     <div className="container-fluid py-5">
         <div className="container m-auto">
-            <div className="row">
+            <div className="row g-0 py-3">
             <h3 className='Rfeature'>
                Our Featured Blogs
                </h3>
