@@ -18,7 +18,7 @@ const Cards = () => {
               
         </div>
 
-    <div className="row g-0 m-auto container py-2 d-flex justify-content-around align-items-between py-sm-5">
+    {/* <div className="row g-0 m-auto container py-2 d-flex justify-content-around align-items-between py-sm-5">
         <div className="col-md-4 Cardpadding">
             <div className="card-image-top ">
                 <img className='rectanglewidth' src="Rectangle1.png" alt="Picture" />
@@ -27,10 +27,10 @@ const Cards = () => {
                 <p className='cardbodypara py-2'>
                     All Home eCommerce General Main . Sep 24, 2020
                 </p>
-                <h4 className='cardbodyheading pb-2 pb-md-3'>
+                <h4 className='cardbodyheading pb-2 '>
                     How To Generate Leads  Your eCommerce Store
                 </h4>
-                <p className='cardbodypara py-2'>
+                <p className='cardbodypara bordertop py-2'>
                 Read More <span><img src="arrow.png" alt="" /></span>
                 </p>
             </div>
@@ -47,7 +47,7 @@ const Cards = () => {
                 <h4 className='cardbodyheading cbp pb-2 '>
                 How To Become An Expert Email Marketer In No Time
                 </h4>
-                <p className='cardbodypara py-2'>
+                <p className='cardbodypara bordertop py-2'>
                 Read More <span><img src="arrow.png" alt="" /></span>
                 </p>
             </div>
@@ -61,20 +61,18 @@ const Cards = () => {
                 <p className='cardbodypara py-2'>
                 All Home eCommerce General Main Shopify Woocommerce. Sep 24, 2020
                 </p>
-                {/* <br /> */}
                 
                 <h4 className='cardbodyheading pb-2 '>
-                    {/* <br /> */}
                 Shopify Vs Woocommerce
                 </h4>
                 
-                <p className='cardbodypara btnpa py-2'>
+                <p className='cardbodypara bordertop btnpa py-2'>
                 Read More <span><img src="arrow.png" alt="" /></span>
                 </p>
             </div>
 
         </div>
-    </div>
+    </div> */}
     </div>
       
     </>

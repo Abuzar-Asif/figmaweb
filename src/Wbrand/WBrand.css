@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+.WBrandpara {
+  font-family: "Kanit";
+  font-size: clamp(0.75rem, 0.675rem + 0.375vw, 1.125rem);
+  font-weight: 300;
+  line-height: 1.2;
+}
+.Wbrandheading {
+  font-family: "Kanit";
+  font-size: clamp(1.25rem, 0.7rem + 2.75vw, 4rem);
+  font-weight: 500;
+  line-height: 1.1;
+}
+.blendluminosity{
+    mix-blend-mode: luminosity;
+}
+.wheight{
+    height: clamp(8.9375rem, 8.4375rem + 2.5vw, 11.4375rem);
+}
+@media screen and (min-width:992px) {
+    .bwidth{
+        width: clamp(3.75rem, 2.2125rem + 7.6875vw, 11.4375rem);
+        border-top: 1px solid #807F7F;
+        border-left: 1px solid #807F7F;
+    }
+    .blast{
+        border-right: 1px solid #807F7F;
+    }
+    .Bbottom{
+        border-bottom: 1px solid #807F7F;
+
+    }
+}
+@media screen and (max-width:991px) {
+    .bwidth{
+    
+        border-top: 1px solid #807F7F !important;
+        border-left: 1px solid #807F7F;
+    }
+    .blast{
+        border-right: 1px solid #807F7F;
+
+    }
+    .bright{
+        border-right: 1px solid #807F7F;
+
+    }
+}
+@media screen and (max-width:575px) {
+    .bwidth{
+    
+        border-top: 1px solid #807F7F !important;
+        border-left: 1px solid #807F7F;
+    }
+    .bwidth:nth-child(even) {
+        border-right: 1px solid #807F7F !important;
+
+    }
+    .blast{
+        border-right: 1px solid #807F7F !important;
+
+    }
+    .last{
+        border-bottom: 1px solid #807F7F;
+
+    }
+}

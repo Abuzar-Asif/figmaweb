@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="container m-auto containerdiv pb-3 ">
             <div className="row">
                 <div className="col">
-                    <p className='footermainheading'>
+                    <p className='footermainheading pt-3'>
                     Global Clientele and Presence
                     </p>
                     {/* <br />

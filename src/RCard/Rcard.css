@@ -1,0 +1,44 @@
+.Rpara{
+    font-size: 'kanit';
+    font-size: clamp(0.5rem, 0.425rem + 0.375vw, 0.875rem);
+    line-height: 1.2;
+    font-weight: 400;
+    color: #999999;
+    text-align: justify;
+}
+.Rheading
+{
+    font-size: clamp(0.625rem, 0.35rem + 1.375vw, 2rem);
+font-family: 'Kanit';
+
+font-weight: 500;
+line-height: 1.1;
+text-align: justify;
+
+
+}
+.Rarrow{
+    font-size: 'kanit';
+    font-size: clamp(0.5rem, 0.425rem + 0.375vw, 0.875rem);
+    line-height: 1.2;
+    font-weight: 400;
+    color: #999999;
+    text-align: justify;
+    border-top: 1px solid #807F7F;
+}
+.Rfeature{
+    font-size: clamp(2rem, 1.6rem + 2vw, 4rem);
+    text-align: center;
+    line-height: 1.1;
+}
+.Rguide{
+    font-size: clamp(0.5rem, 0.425rem + 0.375vw, 0.875rem);
+    text-align: center;
+    color: #999999;
+    line-height: 1.2;
+}
+@media screen and (min-width:992px) {
+    .Rarrow{
+        width: 100%;
+    }
+}
