@@ -17,7 +17,7 @@ const Offer = () => {
             </div>
             <div className="butto mb-5 buttomargin text-white">
                 <button className='btn buttoon'>
-                Contact us  <span><img src="arrow.png" alt="" /></span>
+                Contact us  <span><img src="arrow.png" alt="" /> </span>
                 </button> 
             </div>
             </div>

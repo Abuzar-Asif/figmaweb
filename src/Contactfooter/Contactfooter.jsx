@@ -59,12 +59,17 @@ const Contactfooter = () => {
             </div>
             <div>
               <div className=" butto  text-white">
-                <button className="btn ">
+                {/* <button className="btn ">
                   Contact Us{" "}
                   <span>
                     <img src="arrow.png" alt="" />
                   </span>
-                </button>
+                </button> */}
+                <div className="butto mb-5 buttomargin text-white">
+                <button className='btn buttoon'>
+                Contact us  <span><img src="arrow.png" alt="" /></span>
+                </button> 
+            </div>
               </div>
             </div>
             <div>

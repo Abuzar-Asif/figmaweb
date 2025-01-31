@@ -31,14 +31,21 @@ const Service = () => {
             <img className="serviceimage " src="Creative Design.png" alt="" />
           </div>
           <div className="col-sm-12 col-md-12 col-lg-8  d-flex flex-column  align-items-center  ">
-            <div className=" d-flex  g-0 justify-content-between align-items-center servicecontent">
+          <div className=" line-animated d-flex justify-content-start">
+                <span></span>
+             </div>
+            <div className=" d-flex row g-0 justify-content-between align-items-center servicecontent">
               <h4  className="px-3 col-1 servicecolor  Serviceheading">01</h4>
               <h4 className="px-3 col-4 servicecolor Serviceheading">Awesome <br /> Creative Design</h4>
               <p className="px-5 col-5 servicepara">Creative Designs are basic requirement  of all businesses. PixarsArt is the right  choice for you to initiate this process.</p>
               <p className="px-3 col-2 serviepara d-flex justify-content-end align-items-center">
                 <img className='arrowsize' src="arrow.png" alt="" />
               </p>
+            
             </div>
+            <div className=" line-animated d-flex justify-content-start">
+                <span></span>
+             </div>
             <div className=" d-flex justify-content-between align-items-center servicecontent">
               <h4 className="px-3 col-1  Serviceheading">02</h4>
               <h4 className="px-3 col-4 Serviceheading">Website Development</h4>
@@ -47,6 +54,9 @@ const Service = () => {
                 <img className='arrowsize' src="arrow.png" alt="" />
               </p>
             </div>
+            <div className=" line-animated d-flex justify-content-start align-items-start">
+                <span></span>
+             </div>
             <div className=" d-flex justify-content-between align-items-center servicecontent ">
               <h4 className="px-3  col-1 Serviceheading">03</h4>
               <h4 className="px-3  col-4 Serviceheading">E-commerce Development</h4>
@@ -55,6 +65,9 @@ const Service = () => {
                 <img className='arrowsize' src="arrow.png" alt="" />
               </p>
             </div>
+            <div className=" line-animated d-flex justify-content-start">
+                <span></span>
+             </div>
             <div className=" d-flex justify-content-between align-items-center  servicecontent">
               <h4 className=" px-3  col-1 Serviceheading">04</h4>
               <h4 className=" px-3  col-4 Serviceheading">Application Development</h4>
@@ -63,7 +76,9 @@ const Service = () => {
                 <img className='arrowsize' src="arrow.png" alt="" />
               </p>
             </div>
-
+            <div className=" line-animated d-flex justify-content-start">
+                <span></span>
+             </div>
             <div className=" d-flex last justify-content-between align-items-center servicecontent">
               <h4 className="px-3  col-1 Serviceheading">05</h4>
               <h4 className="px-3  col-4 Serviceheading">Cloud Web  <br /> Data Sciences</h4>
@@ -72,6 +87,9 @@ const Service = () => {
                 <img className='arrowsize' src="arrow.png" alt="" />
               </p>
             </div>
+            <div className=" line-animated d-flex justify-content-start">
+                <span></span>
+             </div>
           </div>
         </div>
       </div>

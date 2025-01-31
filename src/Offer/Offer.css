@@ -46,6 +46,55 @@
 
 
     }
+    /* .btn{
+        &:hover{
+            background-color: #C9F31D;
+            border: none;
+            
+        }
+     span{
+        &:hover{
+            filter: brightness(0);
+        }
+     }
+    } */
+
+     /* .btn {
+        &:hover {
+            background-color: #C9F31D;
+            border: none;
+        }
+    
+        span {
+            &:hover {
+                filter: brightness(0) invert(1);
+            }
+        }
+    }  */
+    
+    .btn {
+        &:hover {
+            background-color: #C9F31D;
+            border: none;
+        }
+    
+       
+    
+        &:hover span img {
+            /* filter: invert(1) brightness(0); */
+             /* Inverts the image color and sets it to black */
+            filter: brightness(0); 
+            transition: filter .3s ease-in-out;
+        }
+    }
+    
+
+
+
+
+    /* .btn>span:hover{
+        filter: brightness(0);
+    } */
     .btn{
         width: 9.5rem;
         height: 9.5rem;
@@ -53,6 +102,11 @@
         border:1px solid white;
         color: white;
     }
+    /* @keyframes bgchange{
+        0%{}
+        
+        100%{}
+    } */
     .paragraph{
         height: 18rem;
         border-left:1px solid #999999;
