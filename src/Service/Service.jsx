@@ -65,8 +65,8 @@ const Service = () => {
                 <img className='arrowsize' src="arrow.png" alt="" />
               </p>
             </div>
-            <div className=" line-animated d-flex justify-content-start">
-                <span></span>
+            <div className=" line-animated ">
+                <span> </span><span className="afteranimates"></span>
              </div>
             <div className=" d-flex justify-content-between align-items-center  servicecontent">
               <h4 className=" px-3  col-1 Serviceheading">04</h4>
