@@ -4,6 +4,7 @@ const GetaQuote = () => {
   return (
     <>
     <div className="container-fluid quoteborder py-5">
+        <marquee >
         <div className="container m-auto">
             <div className="row g-0 d-flex justify-content-around align-items-center flex-wrap">
                 <div className="col-md-6">
@@ -19,6 +20,7 @@ const GetaQuote = () => {
                 
             </div>
         </div>
+        </marquee>
     </div>
     </>
   )

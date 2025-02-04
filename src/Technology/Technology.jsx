@@ -4,7 +4,7 @@ import "../Technology/Technology.css";
 const Technology = () => {
   return (
     <>
-      <div className="container-fluid  row  technology d-flex text-white justify-content-start align-items-center flex-wrap py-5">
+      <div className="scroller container-fluid  row  technology d-flex text-white justify-content-start align-items-center flex-wrap py-5">
         {/* <svg
           version="1.2"
           xmlns="http://www.w3.org/2000/svg"
@@ -96,9 +96,9 @@ const Technology = () => {
 
 
 
-        
+      {/* <div className="scroller_inner"> */}
 
-       <div className="one">
+       <div className="one scroller_inner">
           {" "}
           <p>Webflow</p>
         </div>
@@ -139,6 +139,8 @@ const Technology = () => {
           <p>php</p>
         </div> 
       </div>
+      {/* </div>   */}
+
     </>
   );
 };

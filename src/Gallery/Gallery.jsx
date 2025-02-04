@@ -1,6 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../Gallery/gallery.css'
+import Aos from 'aos';
+import "aos/dist/aos.css";
 const Gallery = () => {
+  useEffect(()=>{
+    Aos.init({
+      duration:1000
+    })
+  })
+
   return (
     <>
 <div className="container-fluid ">
@@ -18,7 +26,7 @@ const Gallery = () => {
             <div className="col-lg-2 col-md-4 mx-auto   Galleryimage5">
       
             </div>
-            <div className="col-lg-2 col-md-4 mx-auto  Galleryimage6">
+            <div className="col-lg-2 col-md-4 mx-auto  Galleryimage6" >
          
             </div>
         </div>

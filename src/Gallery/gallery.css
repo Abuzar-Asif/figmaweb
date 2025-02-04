@@ -41,13 +41,32 @@ background-size: cover;
 height: 50rem;
 
 }
+
+
 .Galleryimage6{
   background-image: url('../../public/Legends of the Galaxy (1).png');
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 height: 50rem;
+}
 
+@media screen and (min-width: 768px) {
+  .Galleryimage1:hover,
+  .Galleryimage2:hover,
+  .Galleryimage3:hover,
+  .Galleryimage4:hover,
+  .Galleryimage5:hover,
+  .Galleryimage6:hover{
+    animation: galleryanimate .3s linear forwards ;
+  
+  }
+  @keyframes galleryanimate {
+    to{
+      transform: scaleX(1.5);
+    }
+    
+  }
 }
 @media screen and (max-width: 768px) {
   .Galleryimage1{
