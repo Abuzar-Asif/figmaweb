@@ -18,9 +18,11 @@ import Service from './Service/Service'
 import Contactfooter from './Contactfooter/Contactfooter'
 import WBrand from './Wbrand/WBrand'
 import Rcard from './RCard/Rcard'
+import MarqueAnimation from './Gsapcode'
 const App = () => {
   return (
     <>
+
       <Navhead/>
       <Backgroundimage/>
       <Partners/>
@@ -37,7 +39,7 @@ const App = () => {
       {/* <Cards/> */}
    <Rcard/>
       <GetaQuote/>
- 
+{/* <MarqueAnimation/>  */}
       <Footer/>
       <Contactfooter/>
 
