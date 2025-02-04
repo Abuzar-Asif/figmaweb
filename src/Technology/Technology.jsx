@@ -346,7 +346,7 @@ const Technology = () => {
       <div className="container-fluid g-0 row technology d-flex text-white py-5">
         {/* This section will move left on scroll */}
         <div
-          className="d-flex text-white justify-content-start align-items-center flex-nowrap"
+          className="d-flex onemarque text-white justify-content-start align-items-center flex-nowrap"
           ref={marqueOneRef}
         >
           <div className="one">
@@ -377,7 +377,7 @@ const Technology = () => {
 
         {/* This section will move right on scroll */}
         <div
-          className="technology d-flex text-white justify-content-start align-items-center"
+          className="technology twomarquee d-flex text-white justify-content-start align-items-center"
           ref={marqueTwoRef}
         >
           <div className="two divwidth1">

@@ -29,9 +29,13 @@ box-sizing: border-box;
 }
 .technology{
     width:200%;
+}
+.onemarque{
     margin-left: -290px;
 }
-
+.twomarquee{
+    margin-left: -290px;
+}
 .one{
 
     width: 50%;
@@ -103,8 +107,12 @@ line-height: 1.2;
 
 
  @media only screen and (max-width: 578px) {
-.technology{
-    margin-left: 120px;
+.onemarque{
+    margin-left: -120px;
+
+}
+.twomarquee{
+    margin-left: -120px;
 }
  }
  @media only screen and (max-width: 480px) {
