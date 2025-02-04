@@ -314,7 +314,7 @@ const Technology = () => {
     const handleWheel = (e) => {
       if (marqueOneRef.current && marqueTwoRef.current) {
         // Determine if scroll is up or down
-        const scrollAmount = e.deltaY > 0 ? 2 : -2; // 2% per scroll
+        const scrollAmount = e.deltaY > 0 ? .5 : -.5; // 2% per scroll
 
         // Update positions
         marqueOnePosition.current += scrollAmount;
@@ -323,10 +323,13 @@ const Technology = () => {
         // Move the elements by 2% in the desired direction
         gsap.to(marqueOneRef.current, {
           transform: `translateX(${marqueOnePosition.current}%)`,
+          // duration:3,
           ease: "none",
         });
         gsap.to(marqueTwoRef.current, {
           transform: `translateX(${marqueTwoPosition.current}%)`,
+          // duration:3,
+
           ease: "none",
         });
       }
@@ -373,6 +376,43 @@ const Technology = () => {
           <div className="one">
             <p>Angular js</p>
           </div>
+          <div className="one">
+            <p>Python</p>
+          </div>
+          <div className="one">
+            <p>Laravel</p>
+          </div>
+          <div className="one">
+            <p>Webflow</p>
+          </div>
+          <div className="one">
+            <p>Vue.js</p>
+          </div>
+          <div className="one">
+            <p>Angular js</p>
+          </div>
+          <div className="one">
+            <p>Python</p>
+          </div>
+          <div className="one">
+            <p>Laravel</p>
+          </div>
+          <div className="one">
+            <p>Webflow</p>
+          </div>
+          <div className="one">
+            <p>Vue.js</p>
+          </div>
+          <div className="one">
+            <p>Angular js</p>
+          </div>
+          <div className="one">
+            <p>Python</p>
+          </div>
+          <div className="one">
+            <p>Laravel</p>
+          </div>
+     
         </div>
 
         {/* This section will move right on scroll */}
@@ -380,6 +420,36 @@ const Technology = () => {
           className="technology twomarquee d-flex text-white justify-content-start align-items-center"
           ref={marqueTwoRef}
         >
+          <div className="two divwidth1">
+            <p>Wordpress</p>
+          </div>
+          <div className="two divwidth2">
+            <p>Shopify</p>
+          </div>
+          <div className="two divwidth3">
+            <p>WIX partners</p>
+          </div>
+          <div className="two divwidth4">
+            <p>Javascript</p>
+          </div>
+          <div className="two divwidth5">
+            <p>php</p>
+          </div>
+          <div className="two divwidth1">
+            <p>Wordpress</p>
+          </div>
+          <div className="two divwidth2">
+            <p>Shopify</p>
+          </div>
+          <div className="two divwidth3">
+            <p>WIX partners</p>
+          </div>
+          <div className="two divwidth4">
+            <p>Javascript</p>
+          </div>
+          <div className="two divwidth5">
+            <p>php</p>
+          </div>
           <div className="two divwidth1">
             <p>Wordpress</p>
           </div>
