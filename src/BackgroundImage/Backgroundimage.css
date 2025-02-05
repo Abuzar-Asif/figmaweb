@@ -1,4 +1,105 @@
+.leter{
+    /* padding: 0 !important; */
+    /* font-size: clamp(0.5rem, 0.525rem + 0.5vw, 1.125rem); */
+/* padding-right: 3px; */
+}
+/* .rolling-text1 .leter{
+    animation: bounce 0.4s ease infinite alternate;
+}
+@keyframes bounce{
+    100%{
+       transform: translateY(-20px);
+    }
+} */
 
+
+
+/* Initially no animation applied */
+.rolling-text1 .leter {
+  opacity: 1;
+  display: inline-block; /* Ensure inline-block to apply the transform */
+  animation: none; /* No animation initially */
+}
+.rolling-text2 .leter {
+  opacity: 1;
+  display: inline-block; /* Ensure inline-block to apply the transform */
+  animation: none; /* No animation initially */
+}
+.rolling-text3 .leter {
+  opacity: 1;
+  display: inline-block; /* Ensure inline-block to apply the transform */
+  animation: none; /* No animation initially */
+}
+.rolling-text4 .leter {
+  opacity: 1;
+  display: inline-block; /* Ensure inline-block to apply the transform */
+  animation: none; /* No animation initially */
+}
+.rolling-text5 .leter {
+  opacity: 1;
+  display: inline-block; /* Ensure inline-block to apply the transform */
+  animation: none; /* No animation initially */
+}
+.rolling-text6 .leter {
+  opacity: 1;
+  display: inline-block; /* Ensure inline-block to apply the transform */
+  animation: none; /* No animation initially */
+}
+.rolling-text7 .leter {
+  opacity: 1;
+  display: inline-block; /* Ensure inline-block to apply the transform */
+  animation: none; /* No animation initially */
+}
+
+/* On hover, trigger animation */
+.rolling-text1:hover .leter {
+  animation: bounce 0.2s linear backwards;
+  animation-delay: 0s;
+}
+
+.rolling-text2:hover .leter {
+  animation: bounce 0.2s linear backwards;
+  animation-delay: 0s;
+}
+.rolling-text3:hover .leter {
+  animation: bounce 0.2s linear backwards;
+  animation-delay: 0s;
+}
+.rolling-text4:hover .leter {
+  animation: bounce 0.2s linear backwards;
+  animation-delay: 0s;
+}
+.rolling-text5:hover .leter {
+  animation: bounce 0.2s linear backwards;
+  animation-delay: 0s;
+}
+.rolling-text6:hover .leter {
+  animation: bounce 0.2s linear backwards;
+  animation-delay: 0s;
+}
+.rolling-text7:hover .leter {
+  animation: bounce 0.2s linear backwards;
+  animation-delay: 0s;
+}
+
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(20px);
+    }
+    100% {
+      transform: translateY(-20px); /* Create bounce effect */
+    }
+  }
+.backgroundul{
+    /* transition: all 0.3s; */
+  cursor: pointer;
+    /* transform: translateY(20px); */
+}
+/* .rolling-text1 .leter{
+    transition: transform 0.5s cubic-bezier(0.70, 0, 0.22, 1);
+     transform: translateY(20px);
+} */
 @font-face {
     font-family: "Tusker";
     src: local("Tusker"),
@@ -84,31 +185,44 @@ background-color: transparent !important;
     /* font-size: 18px; */
     /* font-size: clamp(0.875rem, 0.825rem + 0.25vw, 1.125rem); */
     /* font-size: clamp(0.75rem, 0.675rem + 0.375vw, 1.125rem); */
-    font-size: clamp(0.625rem, 0.525rem + 0.5vw, 1.125rem);
+    /* font-size: clamp(0.625rem, 0.525rem + 0.5vw, 1.125rem); */
+    font-size: clamp(0.375rem, 0.225rem + 0.75vw, 1.125rem);
     font-weight: 600;
-    line-height: 26px;
+    line-height: 1.2;
   height: 5rem;
   /* margin-left: 8rem; */
 }
-
-
-
-
-@media only screen  and (min-width: 1400px )and(max-width:1474px) {
 .backgroundli{
-    font-size: 16px !important;
+    /* font-size: clamp(0.625rem, 0.525rem + 0.5vw, 1.125rem); */
+
 }
+
+
+
+@media only screen  and (min-width: 1900px ) {
+    .backgroundul{
+        /* font-size: 14px !important; */
+        margin-left: 8rem !important;
+    }
+    
+}
+@media only screen  and (min-width: 1400px )and(max-width:1610px) {
+.backgroundul{
+    font-size: 14px !important;
+    padding-left: 0 !important;
+}
+  
 }
 
 @media only screen and (min-width: 1475px) {
-    .bgnav{
+    /* .bgnav{
         padding-right: 1rem;
-    }
+    } */
 .backgroundul{
-    font-family: 'Kanit';
-font-size: 18px;
-font-weight: 600;
-line-height: 26px;
+
+/* font-size: 18px; */
+/* font-weight: 600; */
+/* line-height: 26px; */
 padding-left: 0 !important;
 justify-content: space-between !important;
 }

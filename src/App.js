@@ -18,11 +18,22 @@ import Service from './Service/Service'
 import Contactfooter from './Contactfooter/Contactfooter'
 import WBrand from './Wbrand/WBrand'
 import Rcard from './RCard/Rcard'
-import MarqueAnimation from './Gsapcode'
+// import MarqueAnimation from './Gsapcode'
+import { Routes, Route } from "react-router-dom"; 
+import newRoute from './Routes/Route'
+
 const App = () => {
   return (
     <>
+{/* <Routes>{newRoute.map((currentvalue,index)=>(
+  <Route path={currentvalue.path} 
+  element={currentvalue.component}
+  key={index}
+  />
 
+
+  ))} */}
+ 
       <Navhead/>
       <Backgroundimage/>
       <Partners/>
@@ -42,7 +53,7 @@ const App = () => {
 {/* <MarqueAnimation/>  */}
       <Footer/>
       <Contactfooter/>
-
+      {/* </Routes> */}
     </>
   )
 }

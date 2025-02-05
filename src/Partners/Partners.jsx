@@ -49,7 +49,7 @@ const Partners = () => {
   })
   return (
     <>
-    <div className="container-fluid py-md-5" >
+    <div className="container-fluid py-md-5"  >
 
       <div className="container py-md-5 m-auto">
         <div className="row g-0">
