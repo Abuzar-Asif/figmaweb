@@ -10,6 +10,7 @@ const Backgroundimage = () => {
         <div className="col-md-4 col-lg-5 col-xxl-7 d-none d-md-flex  backgrouimg d-flex align-items-center ">
           <img className='backgrouimg' src="Group-2-1 (2).png" alt="" />
         </div>
+     
         <div className="col-md-8 col-lg-7 col-xxl-5 bgnav">
           <ul className='backgroundul d-flex justify-content-around align-items-center '>
             <li className='rolling-text1 backroundli px-1'> <span className="leter" style={{animationDelay:'0s'}} > S</span> <span className="leter"  style={{animationDelay:"0.1s"}} > E</span> <span className="leter" style={{animationDelay:"0.2s"}} > R</span> <span className="leter" style={{ animationDelay:'0.3s'}} > V</span> <span className="leter" style={{ animationDelay:'0.4s'}} > I</span> <span className="leter" style={{ animationDelay:'0.5s'}} > C</span> <span className="leter" style={{ animationDelay:'0.6s'}} > E</span> <span className="leter" style={{ animationDelay:'0.7s'}} > S</span>  </li>

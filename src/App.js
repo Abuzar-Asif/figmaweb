@@ -19,7 +19,7 @@ import Contactfooter from './Contactfooter/Contactfooter'
 import WBrand from './Wbrand/WBrand'
 import Rcard from './RCard/Rcard'
 // import MarqueAnimation from './Gsapcode'
-import { Routes, Route } from "react-router-dom"; 
+// import { Routes, Route } from "react-router-dom"; 
 import newRoute from './Routes/Route'
 
 const App = () => {
@@ -33,7 +33,9 @@ const App = () => {
 
 
   ))} */}
- 
+ {/* <Routes>
+  <Route path='/Service' Component={Service}/>
+ </Routes> */}
       <Navhead/>
       <Backgroundimage/>
       <Partners/>
@@ -53,6 +55,8 @@ const App = () => {
 {/* <MarqueAnimation/>  */}
       <Footer/>
       <Contactfooter/>
+ 
+
       {/* </Routes> */}
     </>
   )
