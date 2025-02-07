@@ -1,0 +1,56 @@
+.GTHeight{
+
+}
+.gtpara{
+    font-size: clamp(16px, 1vw, 20px) !important;
+ font-family: 'kanit';
+
+
+Font-weight: 400;
+
+Line-height: 1.2;
+
+}
+.gtheading{
+    font-family: "Kanit";
+
+    /* font-size: clamp(2.375rem, 1.7485rem + 3.1325vw, 4rem); */
+    font-size: clamp(2.375rem, 0.881rem + 7.4699vw, 6.25rem);
+    
+    Font-weight: 500;
+    
+    Line-height:1.1;
+    
+
+}
+.gth3{
+    font-family: "Kanit";
+padding-left: 1rem;
+padding-bottom: 1rem;
+padding-top: 1rem;
+    font-size: clamp(1.125rem, 1.1rem + 0.125vw, 1.25rem);
+    Line-height:1.1;
+    Font-weight: 500;
+
+}
+.gtspara{
+    font-size: clamp(0.875rem, 0.825rem + 0.25vw, 1.125rem);
+    font-family: "Kanit";
+padding-left: 1rem;
+padding-bottom: .5rem;
+    Line-height:1.2;
+    Font-weight: 500;
+
+}
+.bordergt{
+    border-bottom: 1px solid white;
+}
+.bgremoveinput{
+    background-color:#121212;
+    border:none;
+    color: white;
+}
+.gtborderdown{
+    border-bottom: 1px solid  #17171700;
+
+}
