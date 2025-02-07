@@ -22,9 +22,20 @@ import Rcard from './RCard/Rcard'
 // import { Routes, Route } from "react-router-dom"; 
 import newRoute from './Routes/Route'
 
+import ModalFullscreenExample from './Modals/Modal1'
+// import { createPortal } from 'react-dom'
+// const mountElement=document.getElementById('overlays')
+
 const App = () => {
   return (
     <>
+    {/* <ModalFullscreenExample /> */}
+    {/* {
+      createPortal(
+        <ModalFullscreenExample/>,mountElement
+
+      )
+    } */}
 {/* <Routes>{newRoute.map((currentvalue,index)=>(
   <Route path={currentvalue.path} 
   element={currentvalue.component}
