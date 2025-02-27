@@ -5,3 +5,47 @@
   /* background-color: #121212; */
  
 }
+body
+{
+  cursor: none;
+}
+.cursor-dot{
+  width: 10px;
+  height: 10px;
+  background-color:#B1D627;
+}
+.cursor-outline{
+  width: 50px;
+height: 50px;
+/* border: 2px solid hsla(0,0%,100%,0.5); */
+border: 2px solid hsla(72, 81%, 46%, 1)
+;
+
+
+}
+.cursor-dot,
+.cursor-outline{
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  z-index:1;
+  pointer-events: none;
+}
+/* const cursordot=document.queryselector(["data-cursor-dot"]);
+const cursorouline=document.queryselector(["data-cursor-outline"]);
+window.addeventlistener("mousemove",function(e){
+  const posX=e.clientX;
+  const posY=e.clientY;
+
+  cursordot.style.left=`${posX}px`;
+  cursordot.style.top=`${posY}px`;
+  cursoroutline.animate({
+    left:`${posX}px`,
+    top:`${posY}px`
+  },{
+    duration:500,fill:"forwards"
+  });
+
+}) */
